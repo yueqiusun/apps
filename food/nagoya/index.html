@@ -521,13 +521,14 @@
       background: var(--surface);
       border-top: 1px solid var(--border);
       display: grid;
-      grid-template-columns: repeat(4, 1fr);
+      grid-template-columns: repeat(5, 1fr);
       padding-bottom: env(safe-area-inset-bottom, 0px);
       z-index: 25;
     }
 
     .nav-btn {
       min-height: 54px;
+      padding: 2px 2px;
       border: none;
       background: transparent;
       color: var(--text-muted);
@@ -827,7 +828,31 @@
         </div>
       </section>
 
-      <!-- TAB 3: CHEAT SHEETS -->
+      <!-- TAB 3: RESERVATION GUIDE -->
+      <section class="tab-panel" id="tab-reserve">
+        <div class="loc-card">
+          <div style="font-size:16px; font-weight:800; color:var(--accent); margin-bottom:4px;">📅 名古屋提前预约精选餐厅</div>
+          <div style="font-size:13px; color:var(--text-muted); margin-bottom:8px;">
+            名古屋最抢手的烧鸟、飞驒牛、法餐与部分拉面百名店支持（或必须）通过 <strong>TableCheck / 一休 / 官网</strong> 提前订座；而蓬莱轩、うな富士本店不接受线上预约，可通过可预约的 <strong>备长 / 柴福屋 / 兼光</strong> 完美替代。
+          </div>
+          <div class="chips-scroll" id="resFilterChips">
+            <button class="chip active" data-rf="all">全部可约</button>
+            <button class="chip" data-rf="req">📅 强烈需预约</button>
+            <button class="chip" data-rf="opt">🗓️ 可提前订座</button>
+          </div>
+          <div class="chips-scroll" id="resSortChips" style="padding-top:0;">
+            <button class="chip active" data-rs="score">⭐ 按推荐优先级/评分</button>
+            <button class="chip" data-rs="dist">📏 按当前距离由近到远</button>
+          </div>
+        </div>
+        <div class="stats-bar">
+          <span id="reserveCount">共 0 家支持预约餐厅</span>
+          <span>卡片内点「🌐 官网/预约」直达</span>
+        </div>
+        <div class="cards-grid" id="reserveList"></div>
+      </section>
+
+      <!-- TAB 4: CHEAT SHEETS -->
       <section class="tab-panel" id="tab-cheats">
         <div class="cheat-card">
           <h3>⚠️ 名古屋美食 6 大避坑 & 2026 必知情报</h3>
@@ -895,6 +920,7 @@
   <nav class="bottom-nav">
     <button class="nav-btn active" data-tab="nearby"><span class="nav-ico">📍</span><span>周边探店</span></button>
     <button class="nav-btn" data-tab="map"><span class="nav-ico">🗺️</span><span>触控地图</span></button>
+    <button class="nav-btn" data-tab="reserve"><span class="nav-ico">📅</span><span>预约精选</span></button>
     <button class="nav-btn" data-tab="cheats"><span class="nav-ico">⚡</span><span>避坑速查</span></button>
     <button class="nav-btn" data-tab="favs"><span class="nav-ico">⭐</span><span>收藏夹</span></button>
   </nav>
@@ -1158,6 +1184,7 @@
         if (state.want.has(id)) state.want.delete(id); else state.want.add(id);
         saveFavs();
         renderList();
+        renderReserve();
         renderFavs();
       });
     });
@@ -1167,6 +1194,7 @@
         if (state.done.has(id)) state.done.delete(id); else state.done.add(id);
         saveFavs();
         renderList();
+        renderReserve();
         renderFavs();
       });
     });
@@ -1186,6 +1214,68 @@
     el.innerHTML = list.map(cardHTML).join("");
     bindCardEvents(el);
   }
+
+  let resState = { filter: "all", sort: "score" };
+
+  function renderReserve() {
+    const reqCount = RESTAURANTS.filter(r => r.reservation_status === "需预约").length;
+    const optCount = RESTAURANTS.filter(r => r.reservation_status === "可预约").length;
+    const chips = document.querySelectorAll("#resFilterChips .chip");
+    if (chips.length >= 3) {
+      chips[0].textContent = `全部可约 (${reqCount + optCount})`;
+      chips[1].textContent = `📅 强烈需预约 (${reqCount})`;
+      chips[2].textContent = `🗓️ 可提前订座 (${optCount})`;
+    }
+
+    let list = RESTAURANTS
+      .filter(r => {
+        if (!r.reservation_status) return false;
+        if (resState.filter === "req" && r.reservation_status !== "需预约") return false;
+        if (resState.filter === "opt" && r.reservation_status !== "可预约") return false;
+        return true;
+      })
+      .map(r => ({ ...r, _dist: haversine(userLoc.lat, userLoc.lng, r.lat, r.lng) }));
+
+    if (resState.sort === "dist") {
+      list.sort((a, b) => a._dist - b._dist);
+    } else {
+      list.sort((a, b) => {
+        const ra = a.reservation_status === "需预约" ? 0 : 1;
+        const rb = b.reservation_status === "需预约" ? 0 : 1;
+        if (ra !== rb) return ra - rb;
+        const sa = a.tabelog_score || 3.35;
+        const sb = b.tabelog_score || 3.35;
+        return sb - sa;
+      });
+    }
+
+    document.getElementById("reserveCount").textContent = `共 ${list.length} 家推荐预约餐厅`;
+    const el = document.getElementById("reserveList");
+    el.innerHTML = list.map(r => {
+      const html = cardHTML(r);
+      return html.replace(
+        '<button class="drawer-toggle" data-act="drawer">',
+        `<div class="drawer-block" style="background:var(--surface-2);padding:8px 10px;border-radius:9px;margin:8px 0 4px;font-size:12px;"><span class="drawer-label">📅 预约攻略：</span>${esc(r.queue_strategy)}</div><button class="drawer-toggle" data-act="drawer">`
+      );
+    }).join("");
+    bindCardEvents(el);
+  }
+
+  document.querySelectorAll("#resFilterChips .chip").forEach(c => {
+    c.addEventListener("click", () => {
+      resState.filter = c.dataset.rf;
+      document.querySelectorAll("#resFilterChips .chip").forEach(x => x.classList.toggle("active", x === c));
+      renderReserve();
+    });
+  });
+
+  document.querySelectorAll("#resSortChips .chip").forEach(c => {
+    c.addEventListener("click", () => {
+      resState.sort = c.dataset.rs;
+      document.querySelectorAll("#resSortChips .chip").forEach(x => x.classList.toggle("active", x === c));
+      renderReserve();
+    });
+  });
 
   function renderFavs() {
     const favRests = RESTAURANTS
@@ -1300,6 +1390,7 @@
     mapView.cx = lng;
     mapView.cy = lat;
     renderList();
+    renderReserve();
     renderFavs();
     renderMap();
   }
@@ -1380,6 +1471,7 @@
       document.querySelectorAll(".tab-panel").forEach(p => p.classList.toggle("active", p.id === `tab-${target}`));
       document.getElementById("mainScroller").scrollTop = 0;
       if (target === "map") renderMap();
+      if (target === "reserve") renderReserve();
       if (target === "favs") renderFavs();
     });
   });
@@ -1555,6 +1647,7 @@
       document.getElementById("headerSub").textContent = `${RESTAURANTS.length} 家实测认证 · ${LANDMARKS.length} 大地标 · 离线可用`;
       renderChips();
       renderList();
+      renderReserve();
       renderFavs();
     } catch (err) {
       document.getElementById("headerSub").textContent = "数据加载失败，请通过 HTTP/HTTPS 服务打开";
