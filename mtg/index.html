@@ -287,9 +287,18 @@
       gap: 10px;
     }
 
+    .cards-grid.image-mode {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 10px;
+    }
+
     @media (min-width: 720px) {
       .cards-grid {
         grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+      .cards-grid.image-mode {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 14px;
       }
     }
 
@@ -410,6 +419,83 @@
       color: var(--text);
     }
 
+    .img-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 6px;
+      box-shadow: var(--shadow);
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      break-inside: avoid;
+      page-break-inside: avoid;
+      cursor: pointer;
+    }
+
+    .img-card img {
+      width: 100%;
+      aspect-ratio: 488 / 680;
+      object-fit: cover;
+      border-radius: 4.75% / 3.4%;
+      display: block;
+      background: var(--surface-2);
+    }
+
+    .img-card-meta {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 4px;
+      flex-wrap: wrap;
+    }
+
+    .img-card-tip {
+      font-size: 0.72rem;
+      color: var(--muted);
+      line-height: 1.3;
+    }
+
+    @media (min-width: 1060px) {
+      .cards-grid.image-mode {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+      }
+    }
+
+    .lightbox {
+      position: fixed;
+      inset: 0;
+      z-index: 1000;
+      background: rgba(0, 0, 0, 0.85);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 16px;
+    }
+    .lightbox.open { display: flex; }
+    .lightbox-inner {
+      max-width: 390px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      align-items: center;
+    }
+    .lightbox-inner img {
+      width: 100%;
+      border-radius: 4.75% / 3.4%;
+      box-shadow: 0 12px 32px rgba(0,0,0,0.6);
+    }
+    .lightbox-tip {
+      background: var(--surface);
+      color: var(--text);
+      padding: 10px 12px;
+      border-radius: 10px;
+      font-size: 0.85rem;
+      line-height: 1.4;
+      width: 100%;
+    }
+
     .empty-state {
       text-align: center;
       padding: 40px 16px;
@@ -473,6 +559,21 @@
         grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
         gap: 7px !important;
       }
+      .cards-grid.image-mode {
+        grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+        gap: 8px !important;
+      }
+      .img-card {
+        background: #ffffff !important;
+        border: 1px solid #cbd5e1 !important;
+        box-shadow: none !important;
+        padding: 4px !important;
+      }
+      .img-card-tip {
+        color: #374151 !important;
+        font-size: 7pt !important;
+      }
+      .lightbox { display: none !important; }
       .card {
         background: #ffffff !important;
         border: 1px solid #cbd5e1 !important;
@@ -505,6 +606,7 @@
         </div>
       </div>
       <div class="header-actions">
+        <button type="button" class="btn" id="viewToggle" title="Switch between Card Images and Text">Text View</button>
         <button type="button" class="btn" id="themeToggle" title="Toggle Light/Dark">Theme</button>
         <a class="btn" href="./TRK-Limited-Surprises-Cheatsheet.pdf" download title="Download PDF">PDF ↓</a>
         <button type="button" class="btn btn-primary" onclick="window.print()" title="Print or Save as PDF">Print</button>
@@ -571,10 +673,17 @@
           <span class="no-print">Tap any filter above when your opponent passes with open mana.</span>
         </div>
 
-        <div class="cards-grid" id="cardsGrid"></div>
+        <div class="cards-grid image-mode" id="cardsGrid"></div>
         <div class="empty-state" id="emptyState" style="display:none;">No cards match the current filters.</div>
       </div>
     </main>
+  </div>
+
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Card preview">
+    <div class="lightbox-inner">
+      <img id="lightboxImg" src="" alt="" />
+      <div class="lightbox-tip" id="lightboxTip"></div>
+    </div>
   </div>
 
   <script>
@@ -875,12 +984,56 @@
       moopsy.tip = "Can gain reach for {2} at instant speed to block flyers (also watch for deathtouch/buffs paired with it).";
     }
 
+    const IMG_MAP = {
+      "Cloistered Telepath": "https://cards.scryfall.io/normal/front/9/5/959318c1-3f7e-4418-91ce-be529af27972.jpg?1785981391",
+      "Saavik, Stoic Student": "https://cards.scryfall.io/normal/front/3/7/3783c530-a2da-4dc1-811a-0a9a412c8e78.jpg?1785981363",
+      "Moopsy": "https://cards.scryfall.io/normal/front/d/f/dfbaf597-6be2-4aa0-88ae-cc4c94878add.jpg?1785981590",
+      "Artificial Anomaly": "https://cards.scryfall.io/normal/front/7/d/7dfead74-0625-4f6a-b66b-6d5d363a387c.jpg?1793273918",
+      "Plasma Cascade": "https://cards.scryfall.io/normal/front/3/c/3c786a2f-3de4-4b24-a3a0-15b1f2a07324.jpg?1785981557",
+      "Shields Up!": "https://cards.scryfall.io/normal/front/0/b/0b60c9af-8ea9-491d-a4a4-226a2143e7f3.jpg?1785981369",
+      "Genesis Effect": "https://cards.scryfall.io/normal/front/f/0/f0996bab-c2e4-4483-a76e-1355c81f1577.jpg?1793361330",
+      "Organic Avulsion Unit": "https://cards.scryfall.io/normal/front/8/c/8cc06121-6ecd-44c3-90f9-34d492b031d4.jpg?1785981505",
+      "He's Dead, Jim": "https://cards.scryfall.io/normal/front/2/c/2c309b0d-94b4-405e-be6c-18b407323e51.jpg?1785981492",
+      "Khaaaaaaaaaaaannn!": "https://cards.scryfall.io/normal/front/2/2/22c60c17-74ec-460b-bf7a-e56e42239826.jpg?1785981536",
+      "Test of Courage": "https://cards.scryfall.io/normal/front/2/9/291b9b6b-54bf-4e71-98f1-cb9301ea0727.jpg?1792668501",
+      "Red Alert!": "https://cards.scryfall.io/normal/front/0/f/0f9b10d3-ba76-45ec-a85c-fb7b26da5561.jpg?1793274269",
+      "Spatial Anomaly": "https://cards.scryfall.io/normal/front/2/f/2f683f37-4291-410d-b179-ed6139c06877.jpg?1793108360",
+      "I'm a Doctor, Not a . . .": "https://cards.scryfall.io/normal/front/c/0/c07979d4-8a58-4cfb-bffa-74e8bd97c7ff.jpg?1785981585",
+      "Subspace Anomaly": "https://cards.scryfall.io/normal/front/e/d/ed62600f-84ae-421e-970a-fd0682c8f280.jpg?1793108348",
+      "D'Vana Tendi, Optimistic Ensign": "https://cards.scryfall.io/normal/front/2/0/206239ca-341a-4f07-8149-a24ccf20ee45.jpg?1792508323",
+      "Gaseous Anomaly": "https://cards.scryfall.io/normal/front/e/6/e6974579-7e88-4d7f-9b05-93d08167cb17.jpg?1793361441",
+      "Dathon and Picard at El-Adrel": "https://cards.scryfall.io/normal/front/9/4/94e9d400-f2bb-46e7-8d41-6038ebdc6c8b.jpg?1785981571",
+      "Tea, Earl Grey, Hot": "https://cards.scryfall.io/normal/front/2/8/289e8ebe-ab0f-466b-a4e6-d5cf8411e724.jpg?1793361401",
+      "Guidance Failure": "https://cards.scryfall.io/normal/front/8/6/86b790e6-3c99-4a95-8327-eb90ed9380f2.jpg?1785981409",
+      "Locutus, the One Who Speaks": "https://cards.scryfall.io/normal/front/2/9/296f1127-14a0-42c4-9e4a-c0d929720748.jpg?1792508366",
+      "Temporal Anomaly": "https://cards.scryfall.io/normal/front/d/2/d2000219-0a57-48e6-ab0f-d5ad0fb7bcf6.jpg?1793361445",
+      "Saru, Unthreatened": "https://cards.scryfall.io/normal/front/4/4/445de44d-8af9-4ea3-b165-9e8eb8939820.jpg?1793187139",
+      "First Contact": "https://cards.scryfall.io/normal/front/5/4/5407e8f4-0c8e-4e66-9d2f-f22277aa38f4.jpg?1785981580",
+      "Astute Terraformer": "https://cards.scryfall.io/normal/front/2/e/2ef7c30c-3ee6-413d-bd24-476322f36cb8.jpg?1793361354",
+      "Set Phasers to . . .": "https://cards.scryfall.io/normal/front/5/4/54dbf416-973d-46c8-b9be-e863283d328b.jpg?1784036750",
+      "Test of Priorities": "https://cards.scryfall.io/normal/front/8/9/89e3ec23-e4dc-4d58-aeda-9f73ed4504a5.jpg?1793013095",
+      "Perils of the Past": "https://cards.scryfall.io/normal/front/3/d/3df10e9a-efb6-4945-9b1b-29200688702a.jpg?1785981548",
+      "Cleveland Booker, Empath": "https://cards.scryfall.io/normal/front/6/b/6b2e52e2-5cb9-4360-92d6-5c0d9e435d09.jpg?1792508285",
+      "Ertai Resurrected": "https://cards.scryfall.io/normal/front/5/2/528f2bfb-c09f-4bb9-a92f-6fcf23525046.jpg?1793187451",
+      "Kirk, Commanding Officer": "https://cards.scryfall.io/normal/front/2/4/245d0430-0967-44f1-8c59-985104a8db30.jpg?1792508356",
+      "Suus Mahna Practitioner": "https://cards.scryfall.io/normal/front/c/b/cb204e41-06a9-4ad2-81f2-a4d62f771cfa.jpg?1793361270",
+      "Impossible Choice": "https://cards.scryfall.io/normal/front/6/c/6c5a87cf-7790-4335-8497-ff793bbdcb05.jpg?1793013157",
+      "Eject the Warp Core": "https://cards.scryfall.io/normal/front/0/4/04a479be-8093-4775-a5d9-8b0e1683bf12.jpg?1785981475",
+      "Captain's Tutelage": "https://cards.scryfall.io/normal/front/0/c/0c340eba-645d-416a-9ed4-f2303aa8c919.jpg?1785981528",
+      "Highly Illogical": "https://cards.scryfall.io/normal/front/1/1/11c94c5f-abf4-429e-8703-c5db9abd79bf.jpg?1784065440",
+      "Consider the Prime Directive": "https://cards.scryfall.io/normal/front/4/e/4e8f75b8-cca7-4ed3-90db-bcac02e74611.jpg?1784036751",
+      "Flare of Fortitude": "https://cards.scryfall.io/normal/front/3/6/362e20d5-5e7f-4367-86d0-ac5fc556682d.jpg?1793187303",
+      "A Good Day to Die": "https://cards.scryfall.io/normal/front/e/2/e2b350b2-0eda-4c2b-b9d6-b58ab4848545.jpg?1785981483",
+      "Test of Identity": "https://cards.scryfall.io/normal/front/7/e/7e1c0423-bf58-47a1-a838-c15bbf40eaba.jpg?1793359534"
+    };
+
     const state = {
       search: "",
       cat: "all",
       color: "all",
       rarity: "all",
-      cmc: "all"
+      cmc: "all",
+      view: "image"
     };
 
     function renderMana(cost) {
@@ -946,6 +1099,33 @@
       }
       empty.style.display = "none";
 
+      grid.classList.toggle("image-mode", state.view === "image");
+
+      if (state.view === "image") {
+        grid.innerHTML = filtered.map((c, idx) => `
+          <article class="img-card" data-idx="${idx}">
+            <img src="${IMG_MAP[c.name] || ''}" alt="${c.name} (${c.cost || 'Land'})" loading="eager" onerror="this.style.display='none';this.nextElementSibling.style.display='block';" />
+            <div style="display:none;padding:6px;font-size:0.78rem;"><strong>${c.name}</strong><br/>${c.oracle}</div>
+            <div class="img-card-meta">
+              <div class="badges">${catBadge(c.cat)}<span class="badge badge-${c.rarity}">${rarityLabel(c.rarity)}</span></div>
+            </div>
+            <div class="img-card-tip">${c.tip}</div>
+          </article>
+        `).join("");
+
+        grid.querySelectorAll(".img-card").forEach((el, i) => {
+          el.addEventListener("click", () => {
+            const card = filtered[i];
+            if (!card) return;
+            document.getElementById("lightboxImg").src = IMG_MAP[card.name] || "";
+            document.getElementById("lightboxImg").alt = card.name;
+            document.getElementById("lightboxTip").innerHTML = `<strong>${card.name}</strong><br/>${card.tip}`;
+            document.getElementById("lightbox").classList.add("open");
+          });
+        });
+        return;
+      }
+
       grid.innerHTML = filtered.map(c => `
         <article class="card">
           <div class="card-head">
@@ -964,6 +1144,16 @@
         </article>
       `).join("");
     }
+
+    document.getElementById("lightbox").addEventListener("click", () => {
+      document.getElementById("lightbox").classList.remove("open");
+    });
+
+    document.getElementById("viewToggle").addEventListener("click", (e) => {
+      state.view = state.view === "image" ? "text" : "image";
+      e.currentTarget.textContent = state.view === "image" ? "Text View" : "Card View";
+      render();
+    });
 
     document.getElementById("searchInput").addEventListener("input", (e) => {
       state.search = e.target.value;

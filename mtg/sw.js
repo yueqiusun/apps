@@ -1,4 +1,4 @@
-const CACHE_NAME = 'trk-surprises-v1';
+const CACHE_NAME = 'trk-surprises-v2';
 const ASSETS = [
   './',
   './index.html',
@@ -28,7 +28,7 @@ self.addEventListener('fetch', (event) => {
     caches.open(CACHE_NAME).then(async (cache) => {
       const cached = await cache.match(event.request);
       const networkPromise = fetch(event.request).then((response) => {
-        if (response && response.ok) {
+        if (response && (response.ok || response.type === 'opaque')) {
           cache.put(event.request, response.clone());
         }
         return response;
