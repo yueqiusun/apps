@@ -415,6 +415,7 @@
     .badge-instant { background: rgba(56, 189, 248, 0.16); color: var(--accent); }
     .badge-flash { background: rgba(168, 85, 247, 0.18); color: #c084fc; }
     .badge-surprise { background: var(--amber-bg); color: var(--amber-text); }
+    .badge-sweeper { background: rgba(239, 68, 68, 0.18); color: var(--danger); }
     .badge-sds { background: rgba(239, 68, 68, 0.16); color: var(--danger); }
 
     :root:not([data-theme="dark"]) .badge-flash { color: #7e22ce; }
@@ -424,6 +425,7 @@
 
     .badge-C { background: var(--surface-2); color: var(--muted); border: 1px solid var(--border); }
     .badge-U { background: #94a3b8; color: #0f172a; }
+    .badge-R { background: #eab308; color: #0f172a; }
     .badge-M { background: #ea580c; color: #ffffff; }
 
     .card-oracle {
@@ -644,14 +646,16 @@
         <input type="search" id="searchInput" placeholder="Search card, effect, or mana (e.g. counter, stun, +3/+3)..." aria-label="Search cards" />
       </div>
       <div class="filter-scroll" id="catFilters" aria-label="Category filters">
-        <button class="pill active" data-cat="all">All (40)</button>
+        <button class="pill active" data-cat="all">All (48)</button>
         <button class="pill" data-cat="instant">Instants (20)</button>
         <button class="pill" data-cat="flash">Flash (4)</button>
         <button class="pill" data-cat="surprise">Surprises (14)</button>
+        <button class="pill" data-cat="sweeper">Sweepers (8)</button>
         <button class="pill" data-cat="sds">SDS Bonus (2)</button>
         <span class="pill-group-sep"></span>
         <button class="pill" data-rarity="C">Common</button>
         <button class="pill" data-rarity="U">Uncommon</button>
+        <button class="pill" data-rarity="RM">Rare / Mythic</button>
       </div>
       <div class="filter-scroll" id="colorFilters" aria-label="Color and mana filters">
         <button class="pill active" data-color="all">All Colors</button>
@@ -673,8 +677,8 @@
     <main id="mainScroller">
       <div class="container">
         <div class="print-header">
-          <h1>MTG | Star Trek (TRK) Limited — Opponent Surprises Cheat Sheet</h1>
-          <p>All 20 Common/Uncommon Instants, 4 Flash Cards, 14 Hand/Board Surprises, and 2 Stardates (SDS) Bonus Sheet Watchouts.</p>
+          <h1>MTG | Star Trek (TRK) Limited — Opponent Surprises &amp; Sweepers Cheat Sheet</h1>
+          <p>All 20 Common/Uncommon Instants, 4 Flash Cards, 14 Hand/Board Surprises, 8 All-Rarity Board Sweepers, and 2 Stardates (SDS) Bonus Sheet Watchouts.</p>
         </div>
 
         <details class="cheat-banner">
@@ -986,6 +990,64 @@
         tip: "2 instant-speed reach to your face or 3 life out of combat."
       },
 
+      // === BOARD SWEEPERS (ALL RARITIES, 8) ===
+      {
+        name: "D'Ghor Bloodletter",
+        cost: "{2}{B}", cmc: 3, colors: ["B"], rarity: "U", cat: "sweeper",
+        type: "Creature — Klingon Assassin (2/2)",
+        oracle: "When this creature enters, choose one —\n• All other creatures get -1/-1 until end of turn.\n• Each player sacrifices a creature of their choice.",
+        tip: "Uncommon -1/-1 sweeper to all other creatures on a 2/2 body for {2}{B} (punishes x/1 tokens and Officers!)."
+      },
+      {
+        name: "Khan, Despot by Design",
+        cost: "{4}{R}", cmc: 5, colors: ["R"], rarity: "U", cat: "sweeper",
+        type: "Legendary Creature — Human Rogue (5/4)",
+        oracle: "Trample\nWhen Khan enters, he deals 1 damage to each opponent and each creature your opponents control.",
+        tip: "Uncommon one-sided 1-damage sweeper on a 5/4 trampler — wipes all your 1-toughness creatures."
+      },
+      {
+        name: "Encounter the Unknown",
+        cost: "{1}{R}{R}", cmc: 3, colors: ["R"], rarity: "R", cat: "sweeper",
+        type: "Instant",
+        oracle: "Choose one —\n• Come in Peace — Exile the top two cards of your library. Until the end of your next turn, you may play those cards.\n• Shoot to Kill — Encounter the Unknown deals 2 damage to each creature and each player.",
+        tip: "Rare INSTANT-speed 2-damage board wipe for {1}{R}{R}!"
+      },
+      {
+        name: "The Destruction of Praxis",
+        cost: "{3}{B}{B}", cmc: 5, colors: ["B"], rarity: "R", cat: "sweeper",
+        type: "Sorcery",
+        oracle: "Strange new worlds — All creatures get -X/-X until end of turn, where X is the number of differently named lands you control. If X is 6 or more, create two 2/1 red Klingon Warrior creature tokens with haste.",
+        tip: "Rare -X/-X black wrath; scales with differently named lands (often -3/-3 to -6/-6)."
+      },
+      {
+        name: "The City on the Edge of Forever",
+        cost: "{3}{W}{B}", cmc: 5, colors: ["W", "B"], rarity: "R", cat: "sweeper",
+        type: "Enchantment — Saga",
+        oracle: "I — All artifacts and creatures phase out. Create a 0/1 white Human creature token with \"Permanents can't phase in.\"\nII — You draw two cards and each player loses 2 life.\nIII — Sacrifice a creature token. If you do, you gain 5 life.",
+        tip: "Rare Orzhov board wipe: permanently phases out all creatures & artifacts until the 0/1 Human is removed."
+      },
+      {
+        name: "Engineered Explosives",
+        cost: "{X}", cmc: 0, colors: ["C"], rarity: "R", cat: "sweeper",
+        type: "Artifact",
+        oracle: "Sunburst\n{2}, Sacrifice this artifact: Destroy each nonland permanent with mana value equal to the number of charge counters on this artifact.",
+        tip: "Rare instant-speed sweeper at {2}: X=0 wipes all tokens; X=1/2/3 wipes all 1/2/3-drops."
+      },
+      {
+        name: "Crystalline Entity",
+        cost: "{8}", cmc: 8, colors: ["C"], rarity: "M", cat: "sweeper",
+        type: "Artifact Creature — Elemental (7/7)",
+        oracle: "Flying\nWhen this creature enters, if you cast it, destroy all nonartifact creatures.",
+        tip: "Mythic 8-mana 7/7 flyer that destroys all nonartifact creatures on ETB."
+      },
+      {
+        name: "Decree of Pain",
+        cost: "{6}{B}{B}", cmc: 8, colors: ["B"], rarity: "M", cat: "sweeper",
+        type: "Sorcery",
+        oracle: "Destroy all creatures. They can't be regenerated. Draw a card for each creature destroyed this way.\nCycling {3}{B}{B}\nWhen you cycle this card, all creatures get -2/-2 until end of turn.",
+        tip: "SDS bonus sheet (~1 in 25 packs). Uncounterable instant-speed -2/-2 board wipe for {3}{B}{B}, or full wrath for {6}{B}{B}."
+      },
+
       // === SDS STARDATES BONUS SHEET (2) ===
       {
         name: "Ertai Resurrected",
@@ -1050,7 +1112,15 @@
       "Consider the Prime Directive": "https://cards.scryfall.io/normal/front/4/e/4e8f75b8-cca7-4ed3-90db-bcac02e74611.jpg?1784036751",
       "Flare of Fortitude": "https://cards.scryfall.io/normal/front/3/6/362e20d5-5e7f-4367-86d0-ac5fc556682d.jpg?1793187303",
       "A Good Day to Die": "https://cards.scryfall.io/normal/front/e/2/e2b350b2-0eda-4c2b-b9d6-b58ab4848545.jpg?1785981483",
-      "Test of Identity": "https://cards.scryfall.io/normal/front/7/e/7e1c0423-bf58-47a1-a838-c15bbf40eaba.jpg?1793359534"
+      "Test of Identity": "https://cards.scryfall.io/normal/front/7/e/7e1c0423-bf58-47a1-a838-c15bbf40eaba.jpg?1793359534",
+      "D'Ghor Bloodletter": "https://cards.scryfall.io/normal/front/5/0/5075645d-ef69-4559-953e-c3140153bd75.jpg?1792753733",
+      "Khan, Despot by Design": "https://cards.scryfall.io/normal/front/f/d/fd283ef1-fd8c-4288-8efa-6e81c92b3415.jpg?1793013585",
+      "Encounter the Unknown": "https://cards.scryfall.io/normal/front/9/a/9a49f66c-7017-4ddd-8787-21d68fe1bff5.jpg?1793274490",
+      "The Destruction of Praxis": "https://cards.scryfall.io/normal/front/3/d/3d33ac2a-73a9-4804-bf9f-c8cf4eea1c76.jpg?1793187997",
+      "The City on the Edge of Forever": "https://cards.scryfall.io/normal/front/a/a/aac6f64d-d39a-4994-bc70-6b477b2640f8.jpg?1787205815",
+      "Engineered Explosives": "https://cards.scryfall.io/normal/front/e/f/ef2d8db7-3f86-4d87-97ca-368444dc7f16.jpg?1792508441",
+      "Crystalline Entity": "https://cards.scryfall.io/normal/front/c/b/cbc4ac70-0a4c-4973-a366-dd67d8901e21.jpg?1784036804",
+      "Decree of Pain": "https://cards.scryfall.io/normal/front/5/d/5d041b08-0021-438a-80fd-ca54839ffe5e.jpg?1793187345"
     };
 
     const state = {
@@ -1078,18 +1148,26 @@
       if (cat === "instant") return `<span class="badge badge-instant">Instant</span>`;
       if (cat === "flash") return `<span class="badge badge-flash">Flash</span>`;
       if (cat === "surprise") return `<span class="badge badge-surprise">Surprise</span>`;
+      if (cat === "sweeper") return `<span class="badge badge-sweeper">Sweeper</span>`;
       return `<span class="badge badge-sds">SDS Bonus</span>`;
     }
 
     function rarityLabel(r) {
       if (r === "C") return "Common";
       if (r === "U") return "Uncommon";
+      if (r === "R") return "Rare";
       return "Mythic";
     }
 
     function matches(card) {
       if (state.cat !== "all" && card.cat !== state.cat) return false;
-      if (state.rarity !== "all" && card.rarity !== state.rarity) return false;
+      if (state.rarity !== "all") {
+        if (state.rarity === "RM") {
+          if (card.rarity !== "R" && card.rarity !== "M") return false;
+        } else if (card.rarity !== state.rarity) {
+          return false;
+        }
+      }
       if (state.color !== "all") {
         if (state.color === "M") {
           if (card.colors.length < 2) return false;
