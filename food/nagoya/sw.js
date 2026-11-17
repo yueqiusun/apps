@@ -1,4 +1,4 @@
-const CACHE_NAME = 'nagoya-food-v1';
+const CACHE_NAME = 'nagoya-food-v2';
 const PRECACHE_URLS = [
   './',
   './index.html',

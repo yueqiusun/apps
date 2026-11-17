@@ -425,6 +425,8 @@
     .tier-pol { background: var(--purple-soft); color: var(--purple); }
     .tier-warn { background: #374151; color: #F9FAFB; }
     .badge-hyaku { background: #78350F; color: #FDE68A; }
+    .badge-res-req { background: #991B1B; color: #FEF2F2; }
+    .badge-res-opt { background: var(--green-soft); color: var(--green); }
     .badge-cat { background: var(--surface-2); color: var(--text-muted); border: 1px solid var(--border); }
 
     .dist-row {
@@ -787,6 +789,8 @@
           <button class="chip active" data-q="all">全部口碑</button>
           <button class="chip" data-q="god">🌟 必吃封神</button>
           <button class="chip" data-q="hyaku">🏆 百名店</button>
+          <button class="chip" data-q="res_req">📅 需预约</button>
+          <button class="chip" data-q="res_any">🗓️ 可提前预约</button>
           <button class="chip" data-q="warn">⚖️ 口味两极/避坑</button>
         </div>
 
@@ -1074,6 +1078,8 @@
         if (state.category !== "全部品类" && r.category !== state.category) return false;
         if (state.quick === "god" && r.tier !== "必吃封神") return false;
         if (state.quick === "hyaku" && !r.hyakumeiten) return false;
+        if (state.quick === "res_req" && r.reservation_status !== "需预约") return false;
+        if (state.quick === "res_any" && !r.reservation_status) return false;
         if (state.quick === "warn" && r.tier !== "口味两极" && r.tier !== "避坑提醒") return false;
         if (q) {
           const hay = `${r.name_zh} ${r.name_ja} ${r.branch} ${r.zone} ${r.micro_hub} ${r.category} ${r.station_exit} ${r.xhs_consensus} ${(r.must_order||[]).map(m=>m.zh+m.ja).join(" ")}`.toLowerCase();
@@ -1107,6 +1113,7 @@
         </div>
         <div class="badges-row">
           <span class="badge ${tierClass(r.tier)}">${esc(r.tier)}</span>
+          ${r.reservation_status === "需预约" ? `<span class="badge badge-res-req">📅 需预约</span>` : (r.reservation_status === "可预约" ? `<span class="badge badge-res-opt">🗓️ 可预约</span>` : "")}
           ${r.hyakumeiten ? `<span class="badge badge-hyaku">🏆 ${esc(r.hyakumeiten)}</span>` : ""}
           <span class="badge badge-cat">${esc(r.category.split(" (")[0])}</span>
           <span class="badge badge-cat">${esc(tb)} · ${esc(r.price_display)}</span>

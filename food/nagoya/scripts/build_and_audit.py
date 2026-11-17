@@ -126,7 +126,7 @@ def main() -> None:
     # Write CSV (UTF-8 BOM)
     csv_cols = [
         "id", "zone_id", "zone", "district", "micro_hub", "name_zh", "name_ja", "branch",
-        "category", "tier", "tabelog_score", "hyakumeiten", "price_jpy", "price_display",
+        "category", "tier", "reservation_status", "tabelog_score", "hyakumeiten", "price_jpy", "price_display",
         "station_exit", "walk_min", "lat", "lng", "hours", "closed_days",
         "queue_strategy", "avoid_or_caution", "xhs_consensus", "local_tip",
         "address_ja", "address_zh", "gmaps_url", "apple_maps_url", "tabelog_url", "official_url", "xhs_url"
@@ -235,8 +235,9 @@ def main() -> None:
         for r in [x for x in all_rests if x["zone_id"] == zid]:
             tb = f"Tabelog {r['tabelog_score']}" if r.get("tabelog_score") else "Tabelog 暂无"
             hyaku = f" 🏆{r['hyakumeiten']}" if r.get("hyakumeiten") else ""
+            res_tag = f" 📅{r['reservation_status']}" if r.get("reservation_status") else ""
             must = "、".join(f"{m['zh']}({m['ja']})" for m in r.get("must_order", []))
-            lines.append(f"- **[{r['tier']}] {r['name_zh']}（{r['name_ja']}）** · {r['category']} · {tb}{hyaku} · {r['price_display']}")
+            lines.append(f"- **[{r['tier']}] {r['name_zh']}（{r['name_ja']}）** · {r['category']} · {tb}{hyaku}{res_tag} · {r['price_display']}")
             lines.append(f"  - 地址：{r['address_zh']}（{r['station_exit']}，步行约 {r['walk_min']} 分钟）")
             lines.append(f"  - 营业：{r['hours']}（休：{r['closed_days']}）")
             lines.append(f"  - 必点：{must}")

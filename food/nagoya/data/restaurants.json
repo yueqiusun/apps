@@ -48,7 +48,8 @@
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E3%81%BE%E3%82%8B%E3%82%84%E6%9C%AC%E5%BA%97%20%E5%90%8D%E5%8F%A4%E5%B1%8B%E9%A7%85%E3%83%A1%E3%82%A4%E3%83%81%E3%82%AB%E5%BA%97",
     "official_url": "https://www.maruya-honten.com/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E4%B8%B8%E5%B1%8B%E6%9C%AC%E5%BA%97%20%E5%90%8D%E5%8F%A4%E5%B1%8B%E7%AB%99",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z1-02",
@@ -99,7 +100,8 @@
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E3%81%B2%E3%81%A4%E3%81%BE%E3%81%B6%E3%81%97%E5%90%8D%E5%8F%A4%E5%B1%8B%20%E5%82%99%E9%95%B7%20%E5%A4%A7%E5%90%8D%E5%8F%A4%E5%B1%8B%E3%83%93%E3%83%AB%E3%83%82%E3%83%B3%E3%82%B0%E5%BA%97",
     "official_url": "https://hitsumabushi.co.jp/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%A4%87%E9%95%BF%E9%B3%97%E9%B1%BC%E9%A5%AD%20%E5%A4%A7%E5%90%8D%E5%8F%A4%E5%B1%8B%E5%A4%A7%E5%8E%A6",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": "可预约"
   },
   {
     "id": "z1-03",
@@ -150,7 +152,8 @@
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E7%9F%A2%E5%A0%B4%E3%81%A8%E3%82%93%20%E5%90%8D%E5%8F%A4%E5%B1%8B%E9%A7%85%E4%B8%89%E4%BA%95%E3%83%93%E3%83%AB%E5%8C%97%E9%A4%A8%E5%BA%97",
     "official_url": "https://www.yabaton.com/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E7%9F%A2%E5%A0%BA%E7%8C%AA%E6%8E%92%20%E5%90%8D%E5%8F%A4%E5%B1%8B%E7%AB%99",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z1-04",
@@ -201,7 +204,8 @@
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E5%B1%B1%E6%9C%AC%E5%B1%8B%E7%B7%8F%E6%9C%AC%E5%AE%B6%20%E3%82%BF%E3%83%AF%E3%83%BC%E3%82%BA%E5%BA%97",
     "official_url": "https://www.yamamotoya.co.jp/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%B1%B1%E6%9C%AC%E5%B1%8B%E6%80%BB%E6%9C%AC%E5%AE%B6%20%E5%90%8D%E5%8F%A4%E5%B1%8B",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z1-05",
@@ -252,7 +256,8 @@
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E3%82%B3%E3%83%B3%E3%83%91%E3%83%AB%20%E3%82%B5%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89%E5%BA%97",
     "official_url": "https://www.konparu.co.jp/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=konparu%20%E7%82%B8%E8%99%BE%E4%B8%89%E6%98%8E%E6%B2%BB",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z1-06",
@@ -303,7 +308,8 @@
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E3%81%B4%E3%82%88%E3%82%8A%E3%82%93",
     "official_url": "https://piyorin.com/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=piyorin%20%E5%90%8D%E5%8F%A4%E5%B1%8B",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z1-07",
@@ -354,7 +360,8 @@
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=HARBS%20%E5%A4%A7%E5%90%8D%E5%8F%A4%E5%B1%8B%E3%83%93%E3%83%AB%E3%83%82%E3%83%B3%E3%82%B0%E5%BA%97",
     "official_url": "https://www.harbs.co.jp/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=HARBS%20%E5%90%8D%E5%8F%A4%E5%B1%8B",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z1-08",
@@ -405,7 +412,8 @@
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E4%B8%96%E7%95%8C%E3%81%AE%E5%B1%B1%E3%81%A1%E3%82%83%E3%82%93%20%E5%90%8D%E5%8F%A4%E5%B1%8B%E9%A7%85%E6%9D%B1%E5%BA%97",
     "official_url": "https://www.yamachan.co.jp/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E4%B8%96%E7%95%8C%E7%9A%84%E5%B1%B1%E5%B0%86%20%E5%90%8D%E5%8F%A4%E5%B1%8B",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": "可预约"
   },
   {
     "id": "z1-09",
@@ -456,7 +464,8 @@
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E6%B1%9F%E5%8D%97%20JR%E3%82%BB%E3%83%B3%E3%83%88%E3%83%A9%E3%83%AB%E3%82%BF%E3%83%AF%E3%83%BC%E3%82%BA%E5%BA%97",
     "official_url": "https://www.towers.jp/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E6%B1%9F%E5%8D%97%E6%8B%89%E9%9D%A2%20%E5%90%8D%E5%8F%A4%E5%B1%8B",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z1-10",
@@ -502,7 +511,8 @@
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E3%82%B9%E3%83%91%E3%82%B2%E3%83%83%E3%83%86%E3%82%A3%E3%83%BB%E3%83%8F%E3%82%A6%E3%82%B9%20%E3%83%A8%E3%82%B3%E3%82%A4%20KITTE%E5%90%8D%E5%8F%A4%E5%B1%8B%E5%BA%97",
     "official_url": "https://www.yokoi-anspa.jp/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%90%8D%E5%8F%A4%E5%B1%8B%E5%8B%BE%E8%8A%A1%E6%84%8F%E9%9D%A2%20%E3%83%A8%E3%82%B3%E3%82%A4",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z1-11",
@@ -553,7 +563,8 @@
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E9%A6%AC%E5%96%B0%E4%B8%80%E4%BB%A3%20%E5%90%8D%E5%8F%A4%E5%B1%8BEAST",
     "official_url": "https://www.bakuroichidai.jp/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E9%A9%AC%E5%96%B0%E4%B8%80%E4%BB%A3%20%E5%90%8D%E5%8F%A4%E5%B1%8B",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": "需预约"
   },
   {
     "id": "z1-12",
@@ -599,7 +610,8 @@
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E3%81%BE%E3%82%8B%E3%81%AF%E9%A3%9F%E5%A0%82%20JR%E5%90%8D%E5%8F%A4%E5%B1%8B%E9%A7%85%E5%BA%97",
     "official_url": "https://www.maruha-net.co.jp/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E4%B8%B8%E7%BE%BD%E9%A3%9F%E5%A0%82%20%E5%90%8D%E5%8F%A4%E5%B1%8B",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z1-13",
@@ -650,7 +662,8 @@
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E4%BC%8D%E5%91%B3%E9%85%89%20%E5%90%8D%E5%8F%A4%E5%B1%8B%E9%A7%85%E5%89%8D%E5%BA%97",
     "official_url": "https://www.taste-net.co.jp/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E4%BC%8D%E5%91%B3%E9%85%89%20%E5%90%8D%E5%8F%A4%E5%B1%8B",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": "可预约"
   },
   {
     "id": "z1-14",
@@ -696,7 +709,8 @@
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E5%9C%B0%E9%9B%B7%E4%B9%9F%20%E3%82%BF%E3%82%AB%E3%82%B7%E3%83%9E%E3%83%A4",
     "official_url": "https://www.jiraiya.co.jp/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%9C%B0%E9%9B%B7%E4%B9%9F%20%E5%A4%A9%E5%A6%87%E7%BD%97%E9%A5%AD%E5%9B%A2",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z1-15",
@@ -742,7 +756,8 @@
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E3%83%9F%E3%83%BC%E3%83%88%E7%9F%A2%E6%BE%A4%20%E5%90%8D%E5%8F%A4%E5%B1%8B",
     "official_url": "https://www.towers.jp/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E7%9F%A2%E6%B3%BD%E8%82%89%E9%93%BA%20%E5%90%8D%E5%8F%A4%E5%B1%8B",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z2-01",
@@ -793,7 +808,8 @@
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E5%91%B3%E4%BB%99%20JR%E5%90%8D%E5%8F%A4%E5%B1%8B%E9%A7%85%E5%BA%97",
     "official_url": "https://www.misen.ne.jp/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%91%B3%E4%BB%99%20%E5%90%8D%E5%8F%A4%E5%B1%8B%E7%AB%99",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z2-02",
@@ -844,7 +860,8 @@
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E9%BA%BA%E5%AE%B6%20%E7%8D%85%E5%AD%90%E4%B8%B8",
     "official_url": "https://menya-hanzo.com/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E9%9D%A2%E5%AE%B6%E7%8B%AE%E5%AD%90%E4%B8%B8%20%E5%90%8D%E5%8F%A4%E5%B1%8B",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z2-03",
@@ -890,7 +907,8 @@
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E3%81%B2%E3%81%A4%E3%81%BE%E3%81%B6%E3%81%97%20%E7%A8%B2%E7%94%9F%20%E3%82%A8%E3%82%B9%E3%82%AB%E5%BA%97",
     "official_url": "https://inou-hitsumabushi.com/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E7%A8%BB%E7%94%9F%E9%B3%97%E9%B1%BC%E9%A5%AD%20%E5%90%8D%E5%8F%A4%E5%B1%8B",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z2-04",
@@ -936,7 +954,8 @@
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E3%81%B2%E3%81%A4%E3%81%BE%E3%81%B6%E3%81%97%E5%90%8D%E5%8F%A4%E5%B1%8B%20%E5%82%99%E9%95%B7%20%E3%82%A8%E3%82%B9%E3%82%AB%E5%BA%97",
     "official_url": "https://hitsumabushi.co.jp/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%A4%87%E9%95%BF%E9%B3%97%E9%B1%BC%E9%A5%AD%20ESCA",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": "可预约"
   },
   {
     "id": "z2-05",
@@ -982,7 +1001,8 @@
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E7%9F%A2%E5%A0%B4%E3%81%A8%E3%82%93%20%E5%90%8D%E5%8F%A4%E5%B1%8B%E9%A7%85%E3%82%A8%E3%82%B9%E3%82%AB%E5%BA%97",
     "official_url": "https://www.yabaton.com/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E7%9F%A2%E5%A0%BA%E7%8C%AA%E6%8E%92%20ESCA",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z2-06",
@@ -1028,7 +1048,8 @@
     "tabelog_url": "https://tabelog.com/aichi/A2301/A230101/23000916/",
     "official_url": "https://www.yoshidamen.co.jp/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%90%89%E7%94%B0%E6%A3%8A%E5%AD%90%E9%9D%A2%20%E5%90%8D%E5%8F%A4%E5%B1%8B",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z2-07",
@@ -1074,7 +1095,8 @@
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E5%B1%B1%E6%9C%AC%E5%B1%8B%E6%9C%AC%E5%BA%97%20%E3%82%A8%E3%82%B9%E3%82%AB%E5%BA%97",
     "official_url": "https://yamamotoyahonten.co.jp/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%B1%B1%E6%9C%AC%E5%B1%8B%E6%9C%AC%E5%BA%97%20ESCA",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z2-08",
@@ -1120,7 +1142,8 @@
     "tabelog_url": "https://tabelog.com/aichi/A2301/A230101/23009643/",
     "official_url": "https://www.esca-sc.com/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%90%83%E8%8C%B6rich%20%E5%90%8D%E5%8F%A4%E5%B1%8B",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z2-09",
@@ -1171,7 +1194,8 @@
     "tabelog_url": "https://tabelog.com/aichi/A2301/A230101/23070570/",
     "official_url": "https://kissamorning.com/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%90%83%E8%8C%B6morning%20%E5%90%8D%E5%8F%A4%E5%B1%8B",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z2-10",
@@ -1222,7 +1246,8 @@
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E5%A4%A9%E3%81%B7%E3%82%89%E3%81%A8%E3%83%AF%E3%82%A4%E3%83%B3%20%E5%B0%8F%E5%B3%B6%20%E6%9F%B3%E6%A9%8B%E6%9C%AC%E5%BA%97",
     "official_url": "https://tenpura-kojima.jp/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%A4%A9%E5%A6%87%E7%BD%97%E4%B8%8E%E7%BA%A2%E9%85%92%E5%B0%8F%E5%B2%9B%20%E5%90%8D%E5%8F%A4%E5%B1%8B",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z2-11",
@@ -1268,7 +1293,8 @@
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E3%81%BE%E3%81%90%E3%82%8D%E3%82%84%E3%81%95%E3%82%93%E6%9F%B3%E6%A9%8B",
     "official_url": "https://marunaka-center.co.jp/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E6%9F%B3%E6%A1%A5%E4%B8%AD%E5%A4%AE%E5%B8%82%E5%9C%BA%20%E6%B5%B7%E9%B2%9C%E4%B8%BC",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z2-12",
@@ -1314,7 +1340,8 @@
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E5%90%9B%E3%81%AE%E3%83%8F%E3%83%B3%E3%83%90%E3%83%BC%E3%82%B0%E3%82%92%E9%A3%9F%E3%81%B9%E3%81%9F%E3%81%84%20%E3%83%8E%E3%83%AA%E3%82%BF%E3%82%B1",
     "official_url": "https://nagoya-noritake-aeonmall.com/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E6%83%B3%E5%90%83%E4%BD%A0%E7%9A%84%E6%B1%89%E5%A0%A1%E6%8E%92%20%E5%90%8D%E5%8F%A4%E5%B1%8B",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z2-13",
@@ -1360,7 +1387,8 @@
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E9%B3%A5%E9%96%8B%E7%B7%8F%E6%9C%AC%E5%AE%B6%20%E5%90%8D%E9%A7%85%E3%82%A8%E3%82%B9%E3%82%AB%E5%BA%97",
     "official_url": "https://www.tori-kai.com/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E9%B8%9F%E5%BC%80%E6%80%BB%E6%9C%AC%E5%AE%B6%20%E5%90%8D%E5%8F%A4%E5%B1%8B",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z2-14",
@@ -1406,7 +1434,8 @@
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E9%A2%A8%E6%9D%A5%E5%9D%8A%20%E3%82%A8%E3%82%B9%E3%82%AB%E5%BA%97",
     "official_url": "https://www.furaibou.com/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E9%A3%8E%E6%9D%A5%E5%9D%8A%20%E5%90%8D%E5%8F%A4%E5%B1%8B",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z2-15",
@@ -1452,7 +1481,8 @@
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=Cafe%20grand%20vert%20%E3%83%8E%E3%83%AA%E3%82%BF%E3%82%B1%E3%81%AE%E6%A3%AE",
     "official_url": "https://www.noritake.co.jp/mori/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%88%99%E6%AD%A6%E4%B9%8B%E6%A3%AE%20%E4%B8%8B%E5%8D%88%E8%8C%B6",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z3-01",
@@ -1503,7 +1533,8 @@
     "tabelog_url": "https://tabelog.com/aichi/A2301/A230103/23000730/",
     "official_url": "https://www.yamachan.co.jp/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E4%B8%96%E7%95%8C%E7%9A%84%E5%B1%B1%E5%B0%86%20%E9%94%A6%E4%B8%89%E5%A4%A7%E6%B4%A5%E5%BA%97%20%E5%90%8D%E5%8F%A4%E5%B1%8B",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z3-02",
@@ -1554,7 +1585,8 @@
     "tabelog_url": "https://tabelog.com/aichi/A2301/A230103/23045901/",
     "official_url": "https://furaibou.com/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E9%A3%8E%E6%9D%A5%E5%9D%8A%20%E8%8D%A3%E5%BA%97%20%E5%90%8D%E5%8F%A4%E5%B1%8B",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": "可预约"
   },
   {
     "id": "z3-03",
@@ -1605,7 +1637,8 @@
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E3%81%86%E3%81%AA%E3%81%8E%E3%81%AE%E5%85%BC%E5%85%89%20%E4%B8%AD%E6%97%A5%E3%83%93%E3%83%AB%E5%BA%97",
     "official_url": "https://unaginokanemitsu.jp/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E3%81%86%E3%81%AA%E3%81%8E%E3%81%AE%E5%85%BC%E5%85%89%20%E4%B8%AD%E6%97%A5%E3%83%93%E3%83%AB",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": "可预约"
   },
   {
     "id": "z3-04",
@@ -1656,7 +1689,8 @@
     "tabelog_url": "https://tabelog.com/aichi/A2301/A230103/23075625/",
     "official_url": "https://bakuroichidai.co.jp/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E9%A9%AC%E5%96%B0%E4%B8%80%E4%BB%A3%20%E5%90%8D%E5%8F%A4%E5%B1%8B%E8%8D%A3",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": "需预约"
   },
   {
     "id": "z3-05",
@@ -1707,7 +1741,8 @@
     "tabelog_url": "https://tabelog.com/aichi/A2301/A230103/23006240/",
     "official_url": "https://www.konparu.co.jp/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E3%82%B3%E3%83%B3%E3%83%91%E3%83%AB%20%E8%8D%A3%E8%A5%BF%E5%BA%97%20%E7%82%B8%E8%99%BE%E4%B8%89%E6%98%8E%E6%B2%BB",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z3-06",
@@ -1758,7 +1793,8 @@
     "tabelog_url": "https://tabelog.com/aichi/A2301/A230103/23038057/",
     "official_url": "https://www.katocoffee.com/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%8A%A0%E8%97%A4%E7%8F%88%E7%90%B2%E5%BA%97%20%E5%90%8D%E5%8F%A4%E5%B1%8B",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z3-07",
@@ -1809,7 +1845,8 @@
     "tabelog_url": "https://tabelog.com/aichi/A2301/A230103/23036331/",
     "official_url": "https://yamamotoyahonten.co.jp/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%B1%B1%E6%9C%AC%E5%B1%8B%E6%9C%AC%E5%BA%97%20%E8%8D%A3%20%E5%90%8D%E5%8F%A4%E5%B1%8B",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z3-08",
@@ -1860,7 +1897,8 @@
     "tabelog_url": "https://tabelog.com/aichi/A2301/A230103/23000492/",
     "official_url": "https://yokoi-anspa.jp/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E3%83%A8%E3%82%B3%E3%82%A4%20%E9%94%A6%E5%BA%97%20%E5%90%8D%E5%8F%A4%E5%B1%8B%20%E5%8B%BE%E8%8A%A1%E6%84%8F%E9%9D%A2",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z3-09",
@@ -1911,7 +1949,8 @@
     "tabelog_url": "https://tabelog.com/aichi/A2301/A230103/23086118/",
     "official_url": "https://torisoba-susuru.com/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E9%B6%8F%E3%81%9D%E3%81%B0%20%E5%94%86%E3%82%8B%20%E6%A0%84%E5%BA%97",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z3-10",
@@ -1962,7 +2001,8 @@
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E3%82%89%E3%83%BC%E3%82%81%E3%82%93%E3%81%BE%E3%81%9C%E3%81%9D%E3%81%B0%20%E3%81%82%E3%82%89%E3%81%97%20%E9%8C%A6%E5%BA%97",
     "official_url": "http://mazesoba-arashi.com/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E3%82%89%E3%83%BC%E3%82%81%E3%82%93%E3%81%BE%E3%81%9C%E3%81%9D%E3%81%B0%20%E3%81%82%E3%82%89%E3%81%97%20%E9%8C%A6%E5%BA%97",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z3-11",
@@ -2013,7 +2053,8 @@
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E5%A4%A9%E5%A9%A6%E7%BE%85%E3%81%8D%E3%81%97%E3%82%81%E3%82%93%20%E3%81%9F%E3%82%82%E3%82%93%20%E4%B8%AD%E6%97%A5%E3%83%93%E3%83%AB%E5%BA%97",
     "official_url": "https://chunichi-building.jp/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%A4%A9%E5%A9%A6%E7%BE%85%E3%81%8D%E3%81%97%E3%82%81%E3%82%93%20%E3%81%9F%E3%82%82%E3%82%93%20%E4%B8%AD%E6%97%A5%E3%83%93%E3%83%AB",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z3-12",
@@ -2064,7 +2105,8 @@
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E3%83%96%E3%83%AB%E3%83%BC%E3%83%9C%E3%83%88%E3%83%AB%E3%82%B3%E3%83%BC%E3%83%92%E3%83%BC%20%E5%90%8D%E5%8F%A4%E5%B1%8B%E6%A0%84%E3%82%AB%E3%83%95%E3%82%A7",
     "official_url": "https://store.bluebottlecoffee.jp/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%90%8D%E5%8F%A4%E5%B1%8B%20%E8%93%9D%E7%93%B6%E5%92%96%E5%95%A1%20%E4%B8%AD%E6%97%A5%E5%A4%A7%E5%8E%A6",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z3-13",
@@ -2115,7 +2157,8 @@
     "tabelog_url": "https://tabelog.com/aichi/A2301/A230101/23000455/",
     "official_url": "https://www.harbs.co.jp/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=HARBS%20%E8%8D%A3%E6%9C%AC%E5%BA%97%20%E5%90%8D%E5%8F%A4%E5%B1%8B",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z3-14",
@@ -2166,7 +2209,8 @@
     "tabelog_url": "https://tabelog.com/aichi/A2301/A230103/23008370/",
     "official_url": "",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E4%B8%B2%E3%81%8B%E3%81%A4%20%E3%83%A9%E3%83%96%E3%83%AA%E3%83%BC%20%E5%90%8D%E5%8F%A4%E5%B1%8B",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z3-15",
@@ -2217,7 +2261,8 @@
     "tabelog_url": "https://tabelog.com/aichi/A2301/A230103/23077448/",
     "official_url": "https://shige-group.co.jp/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E7%84%BC%E3%81%8D%E9%B3%A5%20%E8%8C%82%20%E6%9D%B1%E6%A1%9C%20%E5%90%8D%E5%8F%A4%E5%B1%8B",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": "需预约"
   },
   {
     "id": "z4-01",
@@ -2268,7 +2313,8 @@
     "tabelog_url": "https://tabelog.com/aichi/A2301/A230103/23000345/",
     "official_url": "https://www.houraiken.com/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E8%93%AC%E8%8E%B1%E8%BD%A9%20%E6%9D%BE%E5%9D%82%E5%B1%8B%E5%BA%97%20%E5%90%8D%E5%8F%A4%E5%B1%8B",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z4-02",
@@ -2319,7 +2365,8 @@
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E3%81%B2%E3%81%A4%E3%81%BE%E3%81%B6%E3%81%97%E5%90%8D%E5%8F%A4%E5%B1%8B%E5%82%99%E9%95%B7%20%E3%83%A9%E3%82%B7%E3%83%83%E3%82%AF%E5%BA%97",
     "official_url": "https://hitsumabushi.co.jp/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E3%81%B2%E3%81%A4%E3%81%BE%E3%81%B6%E3%81%97%E5%90%8D%E5%8F%A4%E5%B1%8B%E5%82%99%E9%95%B7%20%E3%83%A9%E3%82%B7%E3%83%83%E3%82%AF%E5%BA%97",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": "可预约"
   },
   {
     "id": "z4-03",
@@ -2370,7 +2417,8 @@
     "tabelog_url": "https://tabelog.com/aichi/A2301/A230103/23005391/",
     "official_url": "https://www.yabaton.com/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E7%9F%A2%E5%9C%BA%E7%8C%AA%E6%8E%92%20LACHIC%E5%BA%97%20%E5%90%8D%E5%8F%A4%E5%B1%8B",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z4-04",
@@ -2421,7 +2469,8 @@
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E7%9F%A2%E5%A0%B4%E3%81%A8%E3%82%93%20%E6%A0%84%E6%9D%BE%E5%9D%82%E5%B1%8B%E5%BA%97",
     "official_url": "https://www.yabaton.com/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E7%9F%A2%E5%9C%BA%E3%81%A8%E3%82%93%20%E6%9D%BE%E5%9D%82%E5%B1%8B%E5%BA%97",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z4-05",
@@ -2472,7 +2521,8 @@
     "tabelog_url": "https://tabelog.com/aichi/A2301/A230103/23000411/",
     "official_url": "https://www.maruha-net.co.jp/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E3%81%BE%E3%82%8B%E3%81%AF%E9%A3%9F%E5%A0%82%20%E3%83%A9%E3%82%B7%E3%83%83%E3%82%AF%E5%BA%97%20%E7%89%B9%E5%A4%A7%E7%82%B8%E8%99%BE",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": "可预约"
   },
   {
     "id": "z4-06",
@@ -2523,7 +2573,8 @@
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E9%87%91%E6%B2%A2%E3%81%BE%E3%81%84%E3%82%82%E3%82%93%E5%AF%BF%E5%8F%B8%20%E6%A2%85%E9%89%A2%E4%BA%AD%20%E3%83%A9%E3%82%B7%E3%83%83%E3%82%AF%E5%BA%97",
     "official_url": "https://www.lachic.jp/shops/floor8/umebachitei/index.html",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E9%87%91%E6%B2%A2%E3%81%BE%E3%81%84%E3%82%82%E3%82%93%E5%AF%BF%E5%8F%B8%20%E3%83%A9%E3%82%B7%E3%83%83%E3%82%AF",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": "可预约"
   },
   {
     "id": "z4-07",
@@ -2574,7 +2625,8 @@
     "tabelog_url": "https://tabelog.com/aichi/A2301/A230103/23006935/",
     "official_url": "https://www.tori-kai.com/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E9%B3%A5%E9%96%8B%E7%B7%8F%E6%9C%AC%E5%AE%B6%20%E6%A0%84%E3%83%A9%E3%82%B7%E3%83%83%E3%82%AF%E5%BA%97",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z4-08",
@@ -2625,7 +2677,8 @@
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E9%B6%8F%E4%B8%89%E5%92%8C%20%E5%90%8D%E5%8F%A4%E5%B1%8B%E6%A0%84%E4%B8%89%E8%B6%8A%E5%BA%97",
     "official_url": "https://www.sanwa-grp.co.jp/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E9%B8%A1%E4%B8%89%E5%92%8C%20%E5%90%8D%E5%8F%A4%E5%B1%8B%E8%8D%A3%E4%B8%89%E8%B6%8A",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z4-09",
@@ -2676,7 +2729,8 @@
     "tabelog_url": "https://tabelog.com/aichi/A2301/A230103/23000113/",
     "official_url": "https://yamamotoya.co.jp/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%B1%B1%E6%9C%AC%E5%B1%8B%E6%80%BB%E6%9C%AC%E5%AE%B6%20%E6%9D%BE%E5%9D%82%E5%B1%8B%E5%BA%97",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z4-10",
@@ -2727,7 +2781,8 @@
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E5%AE%AE%E3%81%8D%E3%81%97%E3%82%81%E3%82%93%E4%BC%8A%E5%85%B5%E8%A1%9B%20%E6%A0%84%E5%BA%97",
     "official_url": "https://www.miyakishimen.co.jp/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%AE%AB%E3%81%8D%E3%81%97%E3%82%81%E3%82%93%20%E4%BC%8A%E5%85%B5%E8%A1%9B%20%E5%90%8D%E5%8F%A4%E5%B1%8B%E6%A0%84%E4%B8%89%E8%B6%8A",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z4-11",
@@ -2778,7 +2833,8 @@
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E6%A5%B5%E5%91%B3%E3%82%84%20%E5%90%8D%E5%8F%A4%E5%B1%8B%E3%83%91%E3%83%AB%E3%82%B3%E5%BA%97",
     "official_url": "https://www.kiwamiya.com/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E6%9E%81%E5%91%B3%E5%B1%8B%20%E5%90%8D%E5%8F%A4%E5%B1%8BPARCO",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z4-12",
@@ -2829,7 +2885,8 @@
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E3%82%AD%E3%83%AB%20%E3%83%95%E3%82%A7%20%E3%83%9C%E3%83%B3%20%E5%90%8D%E5%8F%A4%E5%B1%8B%E6%A0%84",
     "official_url": "https://www.quil-fait-bon.com/pages/nagoya-sakae",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E3%82%AD%E3%83%AB%E3%83%95%E3%82%A7%E3%83%9C%E3%83%B3%20%E5%90%8D%E5%8F%A4%E5%B1%8B%E6%A0%84%20%E6%B0%B4%E6%9E%9C%E5%A1%94",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": "需预约"
   },
   {
     "id": "z4-13",
@@ -2880,7 +2937,8 @@
     "tabelog_url": "https://tabelog.com/aichi/A2301/A230103/23061614/",
     "official_url": "https://www.akafuku.co.jp/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E8%B5%A4%E7%A6%8F%E8%8C%B6%E5%B1%8B%20%E6%9D%BE%E5%9D%82%E5%B1%8B%20%E5%90%8D%E5%8F%A4%E5%B1%8B",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z4-14",
@@ -2931,7 +2989,8 @@
     "tabelog_url": "https://tabelog.com/aichi/A2301/A230103/23000305/",
     "official_url": "https://gomitori-honten.com/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E4%BC%8D%E5%91%B3%E9%85%89%20%E6%9C%AC%E5%BA%97%20%E5%90%8D%E5%8F%A4%E5%B1%8B",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": "可预约"
   },
   {
     "id": "z4-15",
@@ -2982,7 +3041,8 @@
     "tabelog_url": "https://tabelog.com/aichi/A2301/A230103/23072462/",
     "official_url": "https://fukuhamakin.com/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=FUKU%E6%B5%9C%E9%87%91%20%E6%A0%84%E4%BD%8F%E5%90%89",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": "可预约"
   },
   {
     "id": "z5-01",
@@ -3033,7 +3093,8 @@
     "tabelog_url": "https://tabelog.com/aichi/A2301/A230101/23067466/",
     "official_url": "https://www.shibafukuya.com/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%90%8D%E5%8F%A4%E5%B1%8B%20%E3%81%97%E3%81%B0%E7%A6%8F%E3%82%84",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": "需预约"
   },
   {
     "id": "z5-02",
@@ -3084,7 +3145,8 @@
     "tabelog_url": "https://tabelog.com/aichi/A2301/A230101/23093845/",
     "official_url": "https://t-wadafuku.com/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%9B%9B%E9%96%93%E9%81%93%20%E3%82%8F%E3%81%A0%E7%A6%8F",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": "可预约"
   },
   {
     "id": "z5-03",
@@ -3135,7 +3197,8 @@
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E4%B8%96%E7%95%8C%E3%81%AE%E5%B1%B1%E3%81%A1%E3%82%83%E3%82%93%20%E4%BC%8F%E8%A6%8B%E9%A7%85%E5%89%8D%E5%BA%97",
     "official_url": "https://www.yamachan.co.jp/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E4%B8%96%E7%95%8C%E7%9A%84%E5%B1%B1%E5%B0%86%20%E4%BC%8F%E8%A6%8B",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z5-04",
@@ -3186,7 +3249,8 @@
     "tabelog_url": "https://tabelog.com/aichi/A2301/A230101/23024524/",
     "official_url": "https://yamamotoyahonten.co.jp/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%B1%B1%E6%9C%AC%E5%B1%8B%E6%9C%AC%E5%BA%97%20%E4%BC%8F%E8%A6%8B",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z5-05",
@@ -3237,7 +3301,8 @@
     "tabelog_url": "https://tabelog.com/aichi/A2301/A230102/23069832/",
     "official_url": "https://www.torisoba-susuru.com/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E9%B6%8F%E3%81%9D%E3%81%B0%20%E5%95%9C%E3%82%8B",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z5-06",
@@ -3288,7 +3353,8 @@
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E7%84%BC%E8%82%89%E3%82%B9%E3%82%AE%E3%83%A2%E3%83%88%20HOUSeN",
     "official_url": "https://www.oniku-sugimoto.com/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E7%84%BC%E8%82%89%E3%82%B9%E3%82%AE%E3%83%A2%E3%83%88%20%E5%90%8D%E5%8F%A4%E5%B1%8B",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": "可预约"
   },
   {
     "id": "z5-07",
@@ -3339,7 +3405,8 @@
     "tabelog_url": "https://tabelog.com/aichi/A2301/A230101/23005509/",
     "official_url": "",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=KAKO%E5%92%96%E5%95%A1%20%E5%90%8D%E5%8F%A4%E5%B1%8B",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z5-08",
@@ -3390,7 +3457,8 @@
     "tabelog_url": "https://tabelog.com/aichi/A2301/A230101/23070002/",
     "official_url": "",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%96%AB%E8%8C%B6%E3%83%8B%E3%83%A5%E3%83%BC%E3%83%9D%E3%83%94%E3%83%BC",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z5-09",
@@ -3441,7 +3509,8 @@
     "tabelog_url": "https://tabelog.com/aichi/A2301/A230113/23065080/",
     "official_url": "",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%96%AB%E8%8C%B6%E3%82%BE%E3%82%A6%E3%83%A1%E3%82%B7",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z5-10",
@@ -3487,7 +3556,8 @@
     "tabelog_url": "https://tabelog.com/aichi/A2301/A230113/23008508/",
     "official_url": "https://cafedelyon.net/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E3%82%AB%E3%83%95%E3%82%A7%E3%83%89%E3%83%AA%E3%82%AA%E3%83%B3",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z5-11",
@@ -3533,7 +3603,8 @@
     "tabelog_url": "https://tabelog.com/aichi/A2301/A230102/23005510/",
     "official_url": "",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E7%94%B0%E4%B8%AD%E5%AF%BF%E5%8F%B8%20%E4%BC%8F%E8%A6%8B",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": "可预约"
   },
   {
     "id": "z5-12",
@@ -3584,7 +3655,8 @@
     "tabelog_url": "https://tabelog.com/aichi/A2301/A230102/23005827/",
     "official_url": "https://www.kinboshi.net/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E3%81%8D%E3%82%93%E3%81%BC%E3%81%97%20%E4%BC%8F%E8%A6%8B",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": "需预约"
   },
   {
     "id": "z5-13",
@@ -3630,7 +3702,8 @@
     "tabelog_url": "https://tabelog.com/aichi/A2301/A230101/23055452/",
     "official_url": "https://www.skndm.com/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%9B%9B%E9%96%93%E9%81%93%20MATSUURA",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": "需预约"
   },
   {
     "id": "z5-14",
@@ -3676,7 +3749,8 @@
     "tabelog_url": "https://tabelog.com/aichi/A2301/A230109/23007215/",
     "official_url": "",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E7%94%98%E5%A4%AA%E9%83%8E%E6%9C%AC%E8%88%97%20%E5%86%86%E9%A0%93%E5%AF%BA",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z5-15",
@@ -3722,7 +3796,8 @@
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E8%A5%BF%E5%8E%9F%E7%8F%88%E7%90%B2%E5%BA%97%20%E4%BC%8F%E8%A6%8B%E5%BA%97",
     "official_url": "https://nishiharacoffee.com/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E8%A5%BF%E5%8E%9F%E7%8F%88%E7%90%B2%E5%BA%97%20%E4%BC%8F%E8%A6%8B",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z6-01",
@@ -3768,7 +3843,8 @@
     "tabelog_url": "https://tabelog.com/aichi/A2301/A230105/23000026/",
     "official_url": "https://www.tenmusu.com/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%A4%A9%E3%82%80%E3%81%99%20%E5%8D%83%E5%AF%BF%20%E5%A4%A7%E9%A1%BB",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z6-02",
@@ -3814,7 +3890,8 @@
     "tabelog_url": "https://tabelog.com/aichi/A2301/A230103/23000134/",
     "official_url": "https://www.yabaton.com/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E7%9F%A2%E5%9C%BA%E7%8C%AA%E6%8E%92%20%E6%9C%AC%E5%BA%97",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z6-03",
@@ -3865,7 +3942,8 @@
     "tabelog_url": "https://tabelog.com/aichi/A2301/A230103/23004315/",
     "official_url": "https://www.misen.ne.jp/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%91%B3%E4%BB%99%20%E7%9F%A2%E5%A0%B4%E5%BA%97",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z6-04",
@@ -3911,7 +3989,8 @@
     "tabelog_url": "https://tabelog.com/aichi/A2301/A230105/23000147/",
     "official_url": "https://www.cesari.jp/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=CESARI%20%E5%A4%A7%E9%A1%BB%E6%8A%AB%E8%90%A8",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": "可预约"
   },
   {
     "id": "z6-05",
@@ -3962,7 +4041,8 @@
     "tabelog_url": "https://tabelog.com/aichi/A2301/A230105/23000039/",
     "official_url": "",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E9%93%83%E5%AE%B6%20%E5%A4%A7%E9%A1%BB",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z6-06",
@@ -4008,7 +4088,8 @@
     "tabelog_url": "https://tabelog.com/aichi/A2301/A230105/23002607/",
     "official_url": "https://www.konparu.co.jp/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E3%82%B3%E3%83%B3%E3%83%91%E3%83%AB%20%E5%A4%A7%E9%A1%BB",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z6-07",
@@ -4054,7 +4135,8 @@
     "tabelog_url": "https://tabelog.com/aichi/A2301/A230105/23003902/",
     "official_url": "",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E7%8F%88%E7%90%B2%E3%81%B6%E3%82%8A%E3%81%93%20%E5%A4%A7%E9%A1%BB",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z6-08",
@@ -4100,7 +4182,8 @@
     "tabelog_url": "https://tabelog.com/aichi/A2301/A230105/23074692/",
     "official_url": "https://www.kannoncoffee.com/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=KANNON%20COFFEE%20%E5%A4%A7%E9%A1%BB",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z6-09",
@@ -4146,7 +4229,8 @@
     "tabelog_url": "https://tabelog.com/aichi/A2301/A230105/23020837/",
     "official_url": "https://www.osuuiro.co.jp/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%A4%A7%E9%A1%BB%E5%A4%96%E9%83%8E%E7%B3%95",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z6-10",
@@ -4192,7 +4276,8 @@
     "tabelog_url": "https://tabelog.com/aichi/A2301/A230105/23067292/",
     "official_url": "https://www.sawa-ya.co.jp/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%85%AB%E4%BB%A3%E7%9B%AE%E6%BE%A4%E5%B1%8B%20%E5%A4%A7%E9%A1%BB",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z6-11",
@@ -4238,7 +4323,8 @@
     "tabelog_url": "https://tabelog.com/aichi/A2301/A230105/23000980/",
     "official_url": "",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E6%96%B0%E9%9B%80%E6%9C%AC%E5%BA%97%20%E5%A4%A7%E9%A1%BB",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z6-12",
@@ -4284,7 +4370,8 @@
     "tabelog_url": "https://tabelog.com/aichi/A2301/A230105/23002590/",
     "official_url": "",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E6%9D%8E%E3%81%95%E3%82%93%E3%81%AE%E5%8F%B0%E6%B9%BE%E5%90%8D%E7%89%A9%E5%B1%8B%E5%8F%B0",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z6-13",
@@ -4330,7 +4417,8 @@
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E5%8C%85%E5%8C%85%E4%BA%AD%20%E5%A4%A7%E9%A0%88",
     "official_url": "https://paozu.asia/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%8C%85%E5%8C%85%E4%BA%AD%20%E5%A4%A7%E9%A1%BB",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z6-14",
@@ -4381,7 +4469,8 @@
     "tabelog_url": "https://tabelog.com/aichi/A2301/A230105/23000256/",
     "official_url": "",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E3%82%84%E3%81%8D%E3%81%A8%E3%82%8A%20%E8%A7%92%E5%B1%8B%20%E5%A4%A7%E9%A1%BB",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z6-15",
@@ -4427,7 +4516,8 @@
     "tabelog_url": "https://tabelog.com/aichi/A2301/A230105/23065976/",
     "official_url": "https://gabuchiki.com/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E3%81%8C%E3%83%96%E3%83%AA%E3%83%81%E3%82%AD%E3%83%B3%20%E5%A4%A7%E9%A1%BB",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z7-01",
@@ -4478,7 +4568,8 @@
     "tabelog_url": "https://tabelog.com/aichi/A2301/A230112/23000037/",
     "official_url": "https://www.houraiken.com/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%90%8D%E5%8F%A4%E5%B1%8B%20%E7%83%AD%E7%94%B0%E8%93%AC%E8%8E%B1%E8%BD%A9%20%E6%9C%AC%E5%BA%97",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z7-02",
@@ -4529,7 +4620,8 @@
     "tabelog_url": "https://tabelog.com/aichi/A2301/A230112/23000305/",
     "official_url": "https://www.houraiken.com/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%90%8D%E5%8F%A4%E5%B1%8B%20%E7%83%AD%E7%94%B0%E8%93%AC%E8%8E%B1%E8%BD%A9%20%E7%A5%9E%E5%AE%AB%E5%BA%97",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z7-03",
@@ -4580,7 +4672,8 @@
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E5%AE%AE%E3%81%8D%E3%81%97%E3%82%81%E3%82%93%20%E7%A5%9E%E5%AE%AE%E5%BA%97",
     "official_url": "https://www.miyakishimen.co.jp/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%90%8D%E5%8F%A4%E5%B1%8B%20%E5%AE%AB%E6%A3%8A%E5%AD%90%E9%9D%A2%20%E7%A5%9E%E5%AE%AB%E5%BA%97",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z7-04",
@@ -4631,7 +4724,8 @@
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E3%81%8D%E3%82%88%E3%82%81%E9%A4%85%E7%B7%8F%E6%9C%AC%E5%AE%B6%20%E6%9C%AC%E5%BA%97",
     "official_url": "https://www.kiyome.net/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%90%8D%E5%8F%A4%E5%B1%8B%20%E6%B8%85%E7%9B%AE%E9%A5%BC%E6%80%BB%E6%9C%AC%E5%AE%B6%20%E6%9C%AC%E5%BA%97",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z7-05",
@@ -4682,7 +4776,8 @@
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E9%A2%A8%E6%9D%A5%E5%9D%8A%20%E7%A5%9E%E5%AE%AE%E5%89%8D%E5%BA%97",
     "official_url": "https://www.furaibou.com/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%90%8D%E5%8F%A4%E5%B1%8B%20%E9%A3%8E%E6%9D%A5%E5%9D%8A%20%E7%A5%9E%E5%AE%AB%E5%89%8D%E5%BA%97",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z7-06",
@@ -4733,7 +4828,8 @@
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E5%A6%99%E9%A6%99%E5%9C%92%20%E3%81%82%E3%81%A4%E3%81%9FnagAya%E5%BA%97",
     "official_url": "https://www.myokoen.com/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%90%8D%E5%8F%A4%E5%B1%8B%20%E5%A6%99%E9%A6%99%E5%9B%AD%20%E3%81%82%E3%81%A4%E3%81%9FnagAya%E5%BA%97",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z7-07",
@@ -4784,7 +4880,8 @@
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E5%A4%A7%E4%B9%85%E6%89%8B%E5%B1%B1%E6%9C%AC%E5%B1%8B%20%E7%A5%9E%E5%AE%AE%E5%89%8D%E5%BA%97",
     "official_url": "",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%90%8D%E5%8F%A4%E5%B1%8B%20%E5%A4%A7%E4%B9%85%E6%89%8B%E5%B1%B1%E6%9C%AC%E5%B1%8B%20%E7%A5%9E%E5%AE%AB%E5%89%8D%E5%BA%97",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z7-08",
@@ -4835,7 +4932,8 @@
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E3%81%84%E3%82%82%E3%82%93%E3%81%AD%20%E7%A5%9E%E5%AE%AE%E5%89%8D%E5%BA%97",
     "official_url": "",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%90%8D%E5%8F%A4%E5%B1%8B%20%E3%81%84%E3%82%82%E3%82%93%E3%81%AD%20%E7%A5%9E%E5%AE%AB%E5%89%8D%E5%BA%97",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z7-09",
@@ -4886,7 +4984,8 @@
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E3%82%B3%E3%83%B3%E3%83%91%E3%83%AB%20%E9%87%91%E5%B1%B1%E5%BA%97",
     "official_url": "https://www.konparu.co.jp/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%90%8D%E5%8F%A4%E5%B1%8B%20KONPARU%20%E9%87%91%E5%B1%B1%E5%BA%97",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z7-10",
@@ -4937,7 +5036,8 @@
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E4%B8%96%E7%95%8C%E3%81%AE%E5%B1%B1%E3%81%A1%E3%82%83%E3%82%93%20%E9%87%91%E5%B1%B1%E7%B7%8F%E6%9C%AC%E5%BA%97",
     "official_url": "https://www.yamachan.co.jp/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%90%8D%E5%8F%A4%E5%B1%8B%20%E4%B8%96%E7%95%8C%E4%B9%8B%E5%B1%B1%E9%85%B1%20%E9%87%91%E5%B1%B1%E6%80%BB%E6%9C%AC%E5%BA%97",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": "可预约"
   },
   {
     "id": "z7-11",
@@ -4988,7 +5088,8 @@
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E9%BA%BA%E5%87%A6%20%E7%B4%A0%E5%92%8C",
     "official_url": "",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%90%8D%E5%8F%A4%E5%B1%8B%20%E9%9D%A2%E5%A4%84%20%E7%B4%A0%E5%92%8C",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z7-12",
@@ -5039,7 +5140,8 @@
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E3%83%8A%E3%82%AB%E3%83%A0%E3%83%A9%E8%8D%98",
     "official_url": "",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%90%8D%E5%8F%A4%E5%B1%8B%20%E4%B8%AD%E6%9D%91%E5%BA%84%EF%BC%88%E5%8E%9F%E8%B1%86%E5%A4%A9%E7%8B%97%20%E9%87%91%E5%B1%B1%E5%BA%97%EF%BC%89",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z7-13",
@@ -5090,7 +5192,8 @@
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E4%B8%AD%E5%9B%BD%E5%8F%B0%E6%B9%BE%E6%96%99%E7%90%86%20%E9%BE%8D%E7%BE%8E%20%E9%87%91%E5%B1%B1%E5%BA%97",
     "official_url": "",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%90%8D%E5%8F%A4%E5%B1%8B%20%E4%B8%AD%E5%9B%BD%E5%8F%B0%E6%B9%BE%E6%96%99%E7%90%86%20%E9%BE%99%E7%BE%8E%20%E9%87%91%E5%B1%B1%E5%BA%97",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z7-14",
@@ -5141,7 +5244,8 @@
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E3%81%A8%E3%82%93%E3%81%8B%E3%81%A4%20%E3%83%9E%E3%83%BB%E3%83%A1%E3%82%BE%E3%83%B3%20%E3%82%A2%E3%82%B9%E3%83%8A%E3%83%AB%E9%87%91%E5%B1%B1%E5%BA%97",
     "official_url": "",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%90%8D%E5%8F%A4%E5%B1%8B%20%E7%82%B8%E7%8C%AA%E6%8E%92%20Ma%20Maison%20Asunal%E9%87%91%E5%B1%B1%E5%BA%97",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z7-15",
@@ -5192,7 +5296,8 @@
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E7%84%BC%E8%82%89%20%E3%82%B9%E3%82%AE%E3%83%A2%E3%83%88%20%E9%87%91%E5%B1%B1%E5%BA%97",
     "official_url": "https://www.oniku-sugimoto.com/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%90%8D%E5%8F%A4%E5%B1%8B%20%E6%9D%89%E6%9C%AC%E7%83%A7%E8%82%89%20%E9%87%91%E5%B1%B1%E5%BA%97",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": "可预约"
   },
   {
     "id": "z8-01",
@@ -5243,7 +5348,8 @@
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E5%B1%B1%E6%9C%AC%E5%B1%8B%E7%B7%8F%E6%9C%AC%E5%AE%B6%20%E9%87%91%E3%82%B7%E3%83%A3%E3%83%81%E6%A8%AA%E4%B8%81%E5%BA%97",
     "official_url": "https://kinshachi-yokocho.com/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%90%8D%E5%8F%A4%E5%B1%8B%20%E5%B1%B1%E6%9C%AC%E5%B1%8B%E6%80%BB%E6%9C%AC%E5%AE%B6%20%E9%87%91%E9%AF%B1%E6%A8%AA%E4%B8%81%E5%BA%97",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z8-02",
@@ -5294,7 +5400,8 @@
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E7%9F%A2%E5%A0%B4%E3%81%A8%E3%82%93%20%E5%90%8D%E5%8F%A4%E5%B1%8B%E5%9F%8E%E9%87%91%E3%82%B7%E3%83%A3%E3%83%81%E6%A8%AA%E4%B8%81%E5%BA%97",
     "official_url": "https://www.yabaton.com/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%90%8D%E5%8F%A4%E5%B1%8B%20%E7%9F%A2%E5%9C%BA%E7%8C%AA%E6%8E%92%20%E5%90%8D%E5%8F%A4%E5%B1%8B%E5%9F%8E%E9%87%91%E9%AF%B1%E6%A8%AA%E4%B8%81%E5%BA%97",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z8-03",
@@ -5345,7 +5452,8 @@
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E9%B3%A5%E9%96%8B%E7%B7%8F%E6%9C%AC%E5%AE%B6%20%E5%90%8D%E5%8F%A4%E5%B1%8B%E5%9F%8E%E9%87%91%E3%82%B7%E3%83%A3%E3%83%81%E6%A8%AA%E4%B8%81%E5%BA%97",
     "official_url": "https://kinshachi-yokocho.com/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%90%8D%E5%8F%A4%E5%B1%8B%20%E9%B8%9F%E5%BC%80%E6%80%BB%E6%9C%AC%E5%AE%B6%20%E5%90%8D%E5%8F%A4%E5%B1%8B%E5%9F%8E%E9%87%91%E9%AF%B1%E6%A8%AA%E4%B8%81%E5%BA%97",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z8-04",
@@ -5396,7 +5504,8 @@
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E3%81%B2%E3%81%A4%E3%81%BE%E3%81%B6%E3%81%97%E5%90%8D%E5%8F%A4%E5%B1%8B%E5%82%99%E9%95%B7%20%E9%87%91%E3%82%B7%E3%83%A3%E3%83%81%E6%A8%AA%E4%B8%81%E5%BA%97",
     "official_url": "https://hitsumabushi.co.jp/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%90%8D%E5%8F%A4%E5%B1%8B%20%E5%A4%87%E9%95%BF%E9%B3%97%E9%B1%BC%E9%A5%AD%20%E9%87%91%E9%AF%B1%E6%A8%AA%E4%B8%81%E5%BA%97",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z8-05",
@@ -5447,7 +5556,8 @@
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E5%90%8D%E5%8F%A4%E5%B1%8B%E3%81%A8%E3%81%86%E3%81%B5%20%E6%B2%B3%E5%8F%A3",
     "official_url": "https://kinshachi-yokocho.com/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%90%8D%E5%8F%A4%E5%B1%8B%20%E5%90%8D%E5%8F%A4%E5%B1%8B%E8%B1%86%E8%85%90%20%E6%B2%B3%E5%8F%A3",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z8-06",
@@ -5498,7 +5608,8 @@
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E3%81%82%E3%82%93%E3%81%8B%E3%81%91%E5%A4%AA%E9%83%8E%20%E5%90%8D%E5%8F%A4%E5%B1%8B%E5%9F%8E%E9%87%91%E3%82%B7%E3%83%A3%E3%83%81%E6%A8%AA%E4%B8%81%E5%BA%97",
     "official_url": "https://ankake-taro.com/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%90%8D%E5%8F%A4%E5%B1%8B%20Ankake%E5%A4%AA%E9%83%8E%20%E5%90%8D%E5%8F%A4%E5%B1%8B%E5%9F%8E%E9%87%91%E9%AF%B1%E6%A8%AA%E4%B8%81%E5%BA%97",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z8-07",
@@ -5549,7 +5660,8 @@
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E5%89%B5%E4%BD%9C%E4%B8%B2%E6%8F%9A%E3%81%92%20%E3%81%A4%E3%81%A0%20%E9%87%91%E3%82%B7%E3%83%A3%E3%83%81%E6%A8%AA%E4%B8%81%E5%BA%97",
     "official_url": "https://kinshachi-yokocho.com/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%90%8D%E5%8F%A4%E5%B1%8B%20%E5%88%9B%E4%BD%9C%E4%B8%B2%E7%82%B8%20TSUDA%20%E9%87%91%E9%AF%B1%E6%A8%AA%E4%B8%81%E5%BA%97",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": "需预约"
   },
   {
     "id": "z8-08",
@@ -5600,7 +5712,8 @@
     "tabelog_url": "https://tabelog.com/aichi/A2301/A230110/23001413/",
     "official_url": "",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%90%8D%E5%8F%A4%E5%B1%8B%20%E8%8A%B3%E5%85%89",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": "需预约"
   },
   {
     "id": "z8-09",
@@ -5651,7 +5764,8 @@
     "tabelog_url": "https://tabelog.com/aichi/A2301/A230104/23000572/",
     "official_url": "https://cake-bonbon.com/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%90%8D%E5%8F%A4%E5%B1%8B%20%E6%B4%8B%E8%8F%93%E5%AD%90%E3%83%BB%E5%90%83%E8%8C%B6%20Bonbon",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z8-10",
@@ -5702,7 +5816,8 @@
     "tabelog_url": "https://tabelog.com/aichi/A2301/A230104/23053800/",
     "official_url": "https://terreaterre.info/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%90%8D%E5%8F%A4%E5%B1%8B%20Terre%20%C3%A0%20Terre%20%E9%AB%98%E5%B2%B3%E6%9C%AC%E5%BA%97",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z8-11",
@@ -5753,7 +5868,8 @@
     "tabelog_url": "https://tabelog.com/aichi/A2301/A230102/23002570/",
     "official_url": "https://unagi-kiya.com/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%90%8D%E5%8F%A4%E5%B1%8B%20%E9%B3%97%20%E6%9C%A8%E5%B1%8B",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z8-12",
@@ -5804,7 +5920,8 @@
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E5%BE%B3%E5%B7%9D%E7%94%BA%20%E5%A6%82%E6%B0%B4%20%E6%9C%AC%E5%BA%97",
     "official_url": "https://josuiramen.jp/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%90%8D%E5%8F%A4%E5%B1%8B%20%E5%BE%B7%E5%B7%9D%E7%94%BA%20%E5%A6%82%E6%B0%B4%20%E6%9C%AC%E5%BA%97",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z8-13",
@@ -5855,7 +5972,8 @@
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E5%BE%B3%E5%B7%9D%E7%94%BA%20%E3%81%B6%E3%81%9F%E7%A6%8F",
     "official_url": "",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%90%8D%E5%8F%A4%E5%B1%8B%20%E5%BE%B7%E5%B7%9D%E7%94%BA%20%E8%B1%9A%E7%A6%8F",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z8-14",
@@ -5906,7 +6024,8 @@
     "tabelog_url": "https://tabelog.com/aichi/A2301/A230110/23000396/",
     "official_url": "https://gr-tokugawa.zetton.co.jp/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%90%8D%E5%8F%A4%E5%B1%8B%20Garden%20Restaurant%20%E5%BE%B7%E5%B7%9D%E5%9B%AD",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": "需预约"
   },
   {
     "id": "z8-15",
@@ -5957,7 +6076,8 @@
     "tabelog_url": "https://tabelog.com/aichi/A2301/A230110/23054178/",
     "official_url": "https://sozanso-tokugawa.zetton.co.jp/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%90%8D%E5%8F%A4%E5%B1%8B%20%E8%8B%8F%E5%B1%B1%E5%BA%84",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z9-01",
@@ -6008,7 +6128,8 @@
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E7%82%AD%E7%84%BC%20%E3%81%86%E3%81%AA%E5%AF%8C%E5%A3%AB%20%E6%9C%AC%E5%BA%97",
     "official_url": "https://www.sumiyaki-unafuji.com/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%90%8D%E5%8F%A4%E5%B1%8B%20%E3%81%86%E3%81%AA%E5%AF%8C%E5%A3%AB%20%E6%9C%AC%E5%BA%97",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z9-02",
@@ -6064,7 +6185,8 @@
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E5%91%B3%E4%BB%99%20%E4%BB%8A%E6%B1%A0%E6%9C%AC%E5%BA%97",
     "official_url": "https://www.misen.ne.jp/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%90%8D%E5%8F%A4%E5%B1%8B%20%E5%91%B3%E4%BB%99%20%E4%BB%8A%E6%B1%A0%E6%9C%AC%E5%BA%97",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z9-03",
@@ -6115,7 +6237,8 @@
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E3%82%89%E3%81%81%E9%BA%BA%20%E7%B4%AB%E9%99%BD%E8%8A%B1",
     "official_url": "https://www.tablecheck.com/shops/ramen-ajisai/reserve",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%90%8D%E5%8F%A4%E5%B1%8B%20%E3%82%89%E3%81%81%E9%BA%BA%20%E7%B4%AB%E9%99%BD%E8%8A%B1",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": "需预约"
   },
   {
     "id": "z9-04",
@@ -6161,7 +6284,8 @@
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E9%BA%BA%E5%B1%8B%E3%81%AF%E3%81%AA%E3%81%B3%20%E9%AB%98%E7%95%91%E6%9C%AC%E5%BA%97",
     "official_url": "",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%90%8D%E5%8F%A4%E5%B1%8B%20%E9%BA%BA%E5%B1%8B%E3%81%AF%E3%81%AA%E3%81%B3%20%E9%AB%98%E7%95%91%E6%9C%AC%E5%BA%97",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z9-05",
@@ -6207,7 +6331,8 @@
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E4%BA%BA%E7%94%9F%E9%A4%83%E5%AD%90",
     "official_url": "",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%90%8D%E5%8F%A4%E5%B1%8B%20%E4%BA%BA%E7%94%9F%E9%A4%83%E5%AD%90%20%E7%9A%BF%E5%8F%B0%E6%B9%BE",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z9-06",
@@ -6258,7 +6383,8 @@
     "tabelog_url": "https://tabelog.com/aichi/A2301/A230107/23003953/",
     "official_url": "https://kichiimo.com/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%90%8D%E5%8F%A4%E5%B1%8B%20%E8%A6%9A%E7%8E%8B%E5%B1%B1%20%E5%90%89%E8%8A%8B",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z9-07",
@@ -6309,7 +6435,8 @@
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E3%82%B7%E3%82%A7%E3%83%BB%E3%82%B7%E3%83%90%E3%82%BF%20%E5%90%8D%E5%8F%A4%E5%B1%8B",
     "official_url": "https://chez-shibata.com/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%90%8D%E5%8F%A4%E5%B1%8B%20%E3%82%B7%E3%82%A7%E3%83%BB%E3%82%B7%E3%83%90%E3%82%BF%20%E8%A7%89%E7%8E%8B%E5%B1%B1",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z9-08",
@@ -6360,7 +6487,8 @@
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E3%83%95%E3%82%A9%E3%83%AB%E3%83%86%E3%82%B7%E3%83%A2%20%E3%82%A2%E3%83%83%E3%82%B7%E3%83%A5",
     "official_url": "https://www.fortissimo-h.jp/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%90%8D%E5%8F%A4%E5%B1%8B%20%E3%83%95%E3%82%A9%E3%83%AB%E3%83%86%E3%82%B7%E3%83%A2%20%E3%82%A2%E3%83%83%E3%82%B7%E3%83%A5",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z9-09",
@@ -6411,7 +6539,8 @@
     "tabelog_url": "https://tabelog.com/aichi/A2301/A230105/23000551/",
     "official_url": "https://www.kiharutei.com/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%90%8D%E5%8F%A4%E5%B1%8B%20%E6%B0%97%E6%99%B4%E4%BA%AD%20%E9%B6%B4%E8%88%9E",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z9-10",
@@ -6457,7 +6586,8 @@
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E3%81%A8%E3%82%93%E3%81%8B%E3%81%A4%20%E3%83%9E%E3%83%BB%E3%83%A1%E3%82%BE%E3%83%B3%20%E6%98%9F%E3%81%8C%E4%B8%98%E3%83%86%E3%83%A9%E3%82%B9%E5%BA%97",
     "official_url": "https://www.ma-maison.co.jp/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%90%8D%E5%8F%A4%E5%B1%8B%20%E3%83%9E%E3%83%BB%E3%83%A1%E3%82%BE%E3%83%B3%20%E6%98%9F%E3%81%8C%E4%B8%98",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z9-11",
@@ -6503,7 +6633,8 @@
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E4%B8%AD%E8%8F%AF%E8%95%8E%E9%BA%A6%20%E7%94%9F%E3%82%8B",
     "official_url": "",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%90%8D%E5%8F%A4%E5%B1%8B%20%E4%B8%AD%E8%8F%AF%E8%95%8E%E9%BA%A6%20%E7%94%9F%E3%82%8B",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z9-12",
@@ -6554,7 +6685,8 @@
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E7%99%BE%E8%80%81%E4%BA%AD%20%E4%BB%8A%E6%B1%A0%E5%BA%97",
     "official_url": "",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%90%8D%E5%8F%A4%E5%B1%8B%20%E7%99%BE%E8%80%81%E4%BA%AD%20%E4%BB%8A%E6%B1%A0",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z9-13",
@@ -6600,7 +6732,8 @@
     "tabelog_url": "https://tabelog.com/aichi/A2301/A230105/23071358/",
     "official_url": "https://menya-hanzo.com/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%90%8D%E5%8F%A4%E5%B1%8B%20%E9%BA%BA%E5%AE%B6%20%E5%B9%B8%E5%85%88%E5%9D%82",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z9-14",
@@ -6651,7 +6784,8 @@
     "tabelog_url": "https://tabelog.com/aichi/A2301/A230107/23013915/",
     "official_url": "",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%90%8D%E5%8F%A4%E5%B1%8B%20ZARAME%20%E8%A7%89%E7%8E%8B%E5%B1%B1",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z9-15",
@@ -6702,7 +6836,8 @@
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E3%82%82%E3%81%A1%E3%81%AF%E3%82%82%E3%81%A1%E3%82%84%20%E5%B1%B1%E7%94%B0%E9%A4%85%E6%9C%AC%E5%BA%97",
     "official_url": "https://www.yamadamochihonten.co.jp/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%90%8D%E5%8F%A4%E5%B1%8B%20%E9%B6%B4%E8%88%9E%E5%85%AC%E5%9C%92%20%E5%B1%B1%E7%94%B0%E9%A4%85",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z10-01",
@@ -6748,7 +6883,8 @@
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E3%81%BE%E3%82%8B%E3%82%84%E6%9C%AC%E5%BA%97%20%E4%B8%AD%E9%83%A8%E5%9B%BD%E9%9A%9B%E7%A9%BA%E6%B8%AF%E5%BA%97",
     "official_url": "https://www.maruya-honten.com/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%90%8D%E5%8F%A4%E5%B1%8B%20%E6%9C%BA%E5%9C%BA%20%E3%81%BE%E3%82%8B%E3%82%84%E6%9C%AC%E5%BA%97",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z10-02",
@@ -6794,7 +6930,8 @@
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E7%9F%A2%E5%A0%B4%E3%81%A8%E3%82%93%20%E4%B8%AD%E9%83%A8%E5%9B%BD%E9%9A%9B%E7%A9%BA%E6%B8%AF%E5%BA%97",
     "official_url": "https://www.yabaton.com/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%90%8D%E5%8F%A4%E5%B1%8B%20%E6%9C%BA%E5%9C%BA%20%E7%9F%A2%E5%A0%B4%E3%81%A8%E3%82%93",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z10-03",
@@ -6840,7 +6977,8 @@
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E4%B8%96%E7%95%8C%E3%81%AE%E5%B1%B1%E3%81%A1%E3%82%83%E3%82%93%20%E4%B8%AD%E9%83%A8%E5%9B%BD%E9%9A%9B%E7%A9%BA%E6%B8%AF%E5%BA%97",
     "official_url": "https://www.yamachan.co.jp/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%90%8D%E5%8F%A4%E5%B1%8B%20%E6%9C%BA%E5%9C%BA%20%E4%B8%96%E7%95%8C%E3%81%AE%E5%B1%B1%E3%81%A1%E3%82%83%E3%82%93",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z10-04",
@@ -6891,7 +7029,8 @@
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E7%9F%A2%E5%A0%B4%E5%91%B3%E4%BB%99%20%E4%B8%AD%E9%83%A8%E5%9B%BD%E9%9A%9B%E7%A9%BA%E6%B8%AF%E3%82%BB%E3%83%B3%E3%83%88%E3%83%AC%E3%82%A2%E5%BA%97",
     "official_url": "",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%90%8D%E5%8F%A4%E5%B1%8B%20%E6%9C%BA%E5%9C%BA%20%E5%91%B3%E4%BB%99",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z10-05",
@@ -6937,7 +7076,8 @@
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E3%81%BE%E3%82%8B%E3%81%AF%E9%A3%9F%E5%A0%82%20%E4%B8%AD%E9%83%A8%E5%9B%BD%E9%9A%9B%E7%A9%BA%E6%B8%AF%E5%BA%97",
     "official_url": "https://www.maruha-net.co.jp/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%90%8D%E5%8F%A4%E5%B1%8B%20%E6%9C%BA%E5%9C%BA%20%E3%81%BE%E3%82%8B%E3%81%AF%E9%A3%9F%E5%A0%82%20%E7%82%B8%E8%99%BE",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z10-06",
@@ -6983,7 +7123,8 @@
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E3%81%88%E3%81%B3%E3%81%9B%E3%82%93%E3%81%B9%E3%81%84%E3%81%AE%E9%87%8C%20%E4%B8%AD%E9%83%A8%E5%9B%BD%E9%9A%9B%E7%A9%BA%E6%B8%AF%E5%BA%97",
     "official_url": "https://www.ebisato.co.jp/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%90%8D%E5%8F%A4%E5%B1%8B%20%E6%9C%BA%E5%9C%BA%20%E3%81%88%E3%81%B3%E3%81%9B%E3%82%93%E3%81%B9%E3%81%84%E3%81%AE%E9%87%8C%20%E8%99%BE%E9%A5%BC",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z10-07",
@@ -7029,7 +7170,8 @@
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E3%82%81%E3%82%93%E5%87%A6%20%E5%91%B3%E9%87%8C%20%E5%90%8D%E5%8F%A4%E5%B1%8B%E6%B8%AFJETTY%E5%BA%97",
     "official_url": "https://www.mendokoromisato.com/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%90%8D%E5%8F%A4%E5%B1%8B%E6%B8%AF%20%E6%B0%B4%E6%97%8F%E9%A6%86%20JETTY%20%E7%BE%8E%E9%A3%9F",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z10-08",
@@ -7075,7 +7217,8 @@
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E6%9E%A1SARA",
     "official_url": "",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%90%8D%E5%8F%A4%E5%B1%8B%E6%B8%AF%20%E6%9E%A1SARA%20%E6%B5%B7%E9%B2%9C%E4%B8%BC",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z10-09",
@@ -7121,7 +7264,8 @@
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E3%83%94%E3%83%83%E3%83%84%E3%82%A7%E3%83%AA%E3%82%A2%E3%83%9E%E3%83%AA%E3%83%8E%20%E3%83%90%E3%83%B3%E3%83%93%E3%83%BC%E3%83%8A%20%E3%83%A1%E3%82%A4%E3%82%AB%E3%83%BC%E3%82%BA%E3%83%94%E3%82%A2%E5%BA%97",
     "official_url": "https://www.makerspier.com/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%90%8D%E5%8F%A4%E5%B1%8B%20%E4%B9%90%E9%AB%98%E4%B9%90%E5%9B%AD%20%E3%83%A1%E3%82%A4%E3%82%AB%E3%83%BC%E3%82%BA%E3%83%94%E3%82%A2%20%E6%8A%AB%E8%90%A8",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z10-10",
@@ -7167,7 +7311,8 @@
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=Dining%20%26%20BAR%20%E6%B5%B7%E3%81%A8%E8%82%89",
     "official_url": "https://www.makerspier.com/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E3%83%A1%E3%82%A4%E3%82%AB%E3%83%BC%E3%82%BA%E3%83%94%E3%82%A2%20%E6%B5%B7%E3%81%A8%E8%82%89",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z10-11",
@@ -7213,7 +7358,8 @@
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E8%8C%B6%E5%87%A6%20%E3%81%8F%E3%82%89%E3%82%84",
     "official_url": "",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E7%8A%AC%E5%B1%B1%E5%9F%8E%20%E6%81%8B%E5%B0%8F%E7%94%BA%E3%81%A0%E3%82%93%E3%81%94%20%E3%81%8F%E3%82%89%E3%82%84",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z10-12",
@@ -7254,7 +7400,8 @@
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E7%8A%AC%E5%B1%B1%E7%89%9B%E5%A4%AA%E9%83%8E",
     "official_url": "",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E7%8A%AC%E5%B1%B1%E5%9F%8E%20%E7%8A%AC%E5%B1%B1%E7%89%9B%E5%A4%AA%E9%83%8E%20%E9%A3%9B%E9%A8%A8%E7%89%9B%E5%AF%BF%E5%8F%B8",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z10-13",
@@ -7300,7 +7447,8 @@
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E8%8A%B3%E5%B7%9D%E5%B1%8B",
     "official_url": "",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E7%8A%AC%E5%B1%B1%E5%9F%8E%20%E8%8A%B3%E5%B7%9D%E5%B1%8B%20%E6%B0%B4%E6%9E%9C%E5%9C%A3%E4%BB%A3",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z10-14",
@@ -7341,7 +7489,8 @@
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E5%B1%B1%E7%94%B0%E4%BA%94%E5%B9%B3%E9%A4%85%E5%BA%97",
     "official_url": "",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E7%8A%AC%E5%B1%B1%E5%9F%8E%20%E5%B1%B1%E7%94%B0%E4%BA%94%E5%B9%B3%E9%A4%85%E5%BA%97",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   },
   {
     "id": "z10-15",
@@ -7387,6 +7536,7 @@
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E3%83%AD%E3%82%BF%E3%83%B3%E3%83%80%20%E9%A2%A8%E3%83%B6%E4%B8%98",
     "official_url": "https://ghibli-park.jp/",
     "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%90%8D%E5%8F%A4%E5%B1%8B%20%E5%90%89%E5%8D%9C%E5%8A%9B%E5%85%AC%E5%9B%AD%20%E3%83%AD%E3%82%BF%E3%83%B3%E3%83%80%20%E9%A2%A8%E3%83%B6%E4%B8%98",
-    "verified_2026": true
+    "verified_2026": true,
+    "reservation_status": ""
   }
 ]

@@ -134,7 +134,8 @@ def main() -> None:
         direction = compass_dir(lat0, lng0, r["lat"], r["lng"])
         tb = f"Tabelog {r['tabelog_score']}" if r.get("tabelog_score") else "Tabelog 暂无"
         hyaku = f" 🏆{r['hyakumeiten']}" if r.get("hyakumeiten") else ""
-        print(f"{i}. [{r['tier']}] {r['name_zh']}（{r['name_ja']}）")
+        res_tag = f" [📅 {r['reservation_status']}]" if r.get("reservation_status") else ""
+        print(f"{i}. [{r['tier']}]{res_tag} {r['name_zh']}（{r['name_ja']}）")
         print(f"   📏 直线 {int(round(dist))}m ({direction}) | 🚶 约步行 {walk_min} 分钟 | {r['category']} | {tb}{hyaku} | {r['price_display']}")
         print(f"   🏠 {r['address_zh']}（{r['station_exit']}）")
         print(f"   🕒 营业: {r['hours']} | 休: {r['closed_days']}")
