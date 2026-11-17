@@ -47,9 +47,10 @@
     "apple_maps_url": "https://maps.apple.com/?ll=35.172578,136.883755&q=%E3%81%BE%E3%82%8B%E3%82%84%E6%9C%AC%E5%BA%97%20%E5%90%8D%E5%8F%A4%E5%B1%8B%E9%A7%85%E3%83%A1%E3%82%A4%E3%83%81%E3%82%AB%E5%BA%97",
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E3%81%BE%E3%82%8B%E3%82%84%E6%9C%AC%E5%BA%97%20%E5%90%8D%E5%8F%A4%E5%B1%8B%E9%A7%85%E3%83%A1%E3%82%A4%E3%83%81%E3%82%AB%E5%BA%97",
     "official_url": "https://www.maruya-honten.com/",
-    "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E4%B8%B8%E5%B1%8B%E6%9C%AC%E5%BA%97%20%E5%90%8D%E5%8F%A4%E5%B1%8B%E7%AB%99",
+    "xhs_url": "https://www.google.com/search?q=site%3Axiaohongshu.com%20%E4%B8%B8%E5%B1%8B%E6%9C%AC%E5%BA%97%20%E5%90%8D%E5%8F%A4%E5%B1%8B%E7%AB%99",
     "verified_2026": true,
-    "reservation_status": ""
+    "reservation_status": "",
+    "xhs_keyword": "丸屋本店 名古屋站"
   },
   {
     "id": "z1-02",
@@ -99,9 +100,10 @@
     "apple_maps_url": "https://maps.apple.com/?ll=35.171903,136.884474&q=%E3%81%B2%E3%81%A4%E3%81%BE%E3%81%B6%E3%81%97%E5%90%8D%E5%8F%A4%E5%B1%8B%20%E5%82%99%E9%95%B7%20%E5%A4%A7%E5%90%8D%E5%8F%A4%E5%B1%8B%E3%83%93%E3%83%AB%E3%83%82%E3%83%B3%E3%82%B0%E5%BA%97",
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E3%81%B2%E3%81%A4%E3%81%BE%E3%81%B6%E3%81%97%E5%90%8D%E5%8F%A4%E5%B1%8B%20%E5%82%99%E9%95%B7%20%E5%A4%A7%E5%90%8D%E5%8F%A4%E5%B1%8B%E3%83%93%E3%83%AB%E3%83%82%E3%83%B3%E3%82%B0%E5%BA%97",
     "official_url": "https://hitsumabushi.co.jp/",
-    "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%A4%87%E9%95%BF%E9%B3%97%E9%B1%BC%E9%A5%AD%20%E5%A4%A7%E5%90%8D%E5%8F%A4%E5%B1%8B%E5%A4%A7%E5%8E%A6",
+    "xhs_url": "https://www.google.com/search?q=site%3Axiaohongshu.com%20%E5%A4%87%E9%95%BF%E9%B3%97%E9%B1%BC%E9%A5%AD%20%E5%A4%A7%E5%90%8D%E5%8F%A4%E5%B1%8B%E5%A4%A7%E5%8E%A6",
     "verified_2026": true,
-    "reservation_status": "可预约"
+    "reservation_status": "可预约",
+    "xhs_keyword": "备长鳗鱼饭 大名古屋大厦"
   },
   {
     "id": "z1-03",
@@ -151,9 +153,10 @@
     "apple_maps_url": "https://maps.apple.com/?ll=35.168837,136.885297&q=%E7%9F%A2%E5%A0%B4%E3%81%A8%E3%82%93%20%E5%90%8D%E5%8F%A4%E5%B1%8B%E9%A7%85%E4%B8%89%E4%BA%95%E3%83%93%E3%83%AB%E5%8C%97%E9%A4%A8%E5%BA%97",
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E7%9F%A2%E5%A0%B4%E3%81%A8%E3%82%93%20%E5%90%8D%E5%8F%A4%E5%B1%8B%E9%A7%85%E4%B8%89%E4%BA%95%E3%83%93%E3%83%AB%E5%8C%97%E9%A4%A8%E5%BA%97",
     "official_url": "https://www.yabaton.com/",
-    "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E7%9F%A2%E5%A0%BA%E7%8C%AA%E6%8E%92%20%E5%90%8D%E5%8F%A4%E5%B1%8B%E7%AB%99",
+    "xhs_url": "https://www.google.com/search?q=site%3Axiaohongshu.com%20%E7%9F%A2%E5%A0%BA%E7%8C%AA%E6%8E%92%20%E5%90%8D%E5%8F%A4%E5%B1%8B%E7%AB%99",
     "verified_2026": true,
-    "reservation_status": ""
+    "reservation_status": "",
+    "xhs_keyword": "矢堺猪排 名古屋站"
   },
   {
     "id": "z1-04",
@@ -203,9 +206,10 @@
     "apple_maps_url": "https://maps.apple.com/?ll=35.171278,136.882639&q=%E5%B1%B1%E6%9C%AC%E5%B1%8B%E7%B7%8F%E6%9C%AC%E5%AE%B6%20%E3%82%BF%E3%83%AF%E3%83%BC%E3%82%BA%E5%BA%97",
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E5%B1%B1%E6%9C%AC%E5%B1%8B%E7%B7%8F%E6%9C%AC%E5%AE%B6%20%E3%82%BF%E3%83%AF%E3%83%BC%E3%82%BA%E5%BA%97",
     "official_url": "https://www.yamamotoya.co.jp/",
-    "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%B1%B1%E6%9C%AC%E5%B1%8B%E6%80%BB%E6%9C%AC%E5%AE%B6%20%E5%90%8D%E5%8F%A4%E5%B1%8B",
+    "xhs_url": "https://www.google.com/search?q=site%3Axiaohongshu.com%20%E5%B1%B1%E6%9C%AC%E5%B1%8B%E6%80%BB%E6%9C%AC%E5%AE%B6%20%E5%90%8D%E5%8F%A4%E5%B1%8B",
     "verified_2026": true,
-    "reservation_status": ""
+    "reservation_status": "",
+    "xhs_keyword": "山本屋总本家 名古屋"
   },
   {
     "id": "z1-05",
@@ -255,9 +259,10 @@
     "apple_maps_url": "https://maps.apple.com/?ll=35.16955,136.88495&q=%E3%82%B3%E3%83%B3%E3%83%91%E3%83%AB%20%E3%82%B5%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89%E5%BA%97",
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E3%82%B3%E3%83%B3%E3%83%91%E3%83%AB%20%E3%82%B5%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89%E5%BA%97",
     "official_url": "https://www.konparu.co.jp/",
-    "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=konparu%20%E7%82%B8%E8%99%BE%E4%B8%89%E6%98%8E%E6%B2%BB",
+    "xhs_url": "https://www.google.com/search?q=site%3Axiaohongshu.com%20%E5%90%8D%E5%8F%A4%E5%B1%8B%20konparu%20%E7%82%B8%E8%99%BE%E4%B8%89%E6%98%8E%E6%B2%BB",
     "verified_2026": true,
-    "reservation_status": ""
+    "reservation_status": "",
+    "xhs_keyword": "名古屋 konparu 炸虾三明治"
   },
   {
     "id": "z1-06",
@@ -307,9 +312,10 @@
     "apple_maps_url": "https://maps.apple.com/?ll=35.170643,136.881695&q=%E3%81%B4%E3%82%88%E3%82%8A%E3%82%93village%20JR%E5%90%8D%E5%8F%A4%E5%B1%8B%E9%A7%85",
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E3%81%B4%E3%82%88%E3%82%8A%E3%82%93",
     "official_url": "https://piyorin.com/",
-    "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=piyorin%20%E5%90%8D%E5%8F%A4%E5%B1%8B",
+    "xhs_url": "https://www.google.com/search?q=site%3Axiaohongshu.com%20piyorin%20%E5%90%8D%E5%8F%A4%E5%B1%8B",
     "verified_2026": true,
-    "reservation_status": ""
+    "reservation_status": "",
+    "xhs_keyword": "piyorin 名古屋"
   },
   {
     "id": "z1-07",
@@ -359,9 +365,10 @@
     "apple_maps_url": "https://maps.apple.com/?ll=35.171903,136.884474&q=HARBS%20%E5%A4%A7%E5%90%8D%E5%8F%A4%E5%B1%8B%E3%83%93%E3%83%AB%E3%83%82%E3%83%B3%E3%82%B0%E5%BA%97",
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=HARBS%20%E5%A4%A7%E5%90%8D%E5%8F%A4%E5%B1%8B%E3%83%93%E3%83%AB%E3%83%82%E3%83%B3%E3%82%B0%E5%BA%97",
     "official_url": "https://www.harbs.co.jp/",
-    "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=HARBS%20%E5%90%8D%E5%8F%A4%E5%B1%8B",
+    "xhs_url": "https://www.google.com/search?q=site%3Axiaohongshu.com%20HARBS%20%E5%90%8D%E5%8F%A4%E5%B1%8B",
     "verified_2026": true,
-    "reservation_status": ""
+    "reservation_status": "",
+    "xhs_keyword": "HARBS 名古屋"
   },
   {
     "id": "z1-08",
@@ -411,9 +418,10 @@
     "apple_maps_url": "https://maps.apple.com/?ll=35.169112,136.889314&q=%E4%B8%96%E7%95%8C%E3%81%AE%E5%B1%B1%E3%81%A1%E3%82%83%E3%82%93%20%E5%90%8D%E5%8F%A4%E5%B1%8B%E9%A7%85%E6%9D%B1%E5%BA%97",
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E4%B8%96%E7%95%8C%E3%81%AE%E5%B1%B1%E3%81%A1%E3%82%83%E3%82%93%20%E5%90%8D%E5%8F%A4%E5%B1%8B%E9%A7%85%E6%9D%B1%E5%BA%97",
     "official_url": "https://www.yamachan.co.jp/",
-    "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E4%B8%96%E7%95%8C%E7%9A%84%E5%B1%B1%E5%B0%86%20%E5%90%8D%E5%8F%A4%E5%B1%8B",
+    "xhs_url": "https://www.google.com/search?q=site%3Axiaohongshu.com%20%E4%B8%96%E7%95%8C%E7%9A%84%E5%B1%B1%E5%B0%86%20%E5%90%8D%E5%8F%A4%E5%B1%8B",
     "verified_2026": true,
-    "reservation_status": "可预约"
+    "reservation_status": "可预约",
+    "xhs_keyword": "世界的山将 名古屋"
   },
   {
     "id": "z1-09",
@@ -463,9 +471,10 @@
     "apple_maps_url": "https://maps.apple.com/?ll=35.171278,136.882639&q=%E6%B1%9F%E5%8D%97%20JR%E3%82%BB%E3%83%B3%E3%83%88%E3%83%A9%E3%83%AB%E3%82%BF%E3%83%AF%E3%83%BC%E3%82%BA%E5%BA%97",
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E6%B1%9F%E5%8D%97%20JR%E3%82%BB%E3%83%B3%E3%83%88%E3%83%A9%E3%83%AB%E3%82%BF%E3%83%AF%E3%83%BC%E3%82%BA%E5%BA%97",
     "official_url": "https://www.towers.jp/",
-    "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E6%B1%9F%E5%8D%97%E6%8B%89%E9%9D%A2%20%E5%90%8D%E5%8F%A4%E5%B1%8B",
+    "xhs_url": "https://www.google.com/search?q=site%3Axiaohongshu.com%20%E6%B1%9F%E5%8D%97%E6%8B%89%E9%9D%A2%20%E5%90%8D%E5%8F%A4%E5%B1%8B",
     "verified_2026": true,
-    "reservation_status": ""
+    "reservation_status": "",
+    "xhs_keyword": "江南拉面 名古屋"
   },
   {
     "id": "z1-10",
@@ -510,9 +519,10 @@
     "apple_maps_url": "https://maps.apple.com/?ll=35.173011,136.882482&q=%E3%83%A8%E3%82%B3%E3%82%A4%20KITTE%E5%90%8D%E5%8F%A4%E5%B1%8B%E5%BA%97",
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E3%82%B9%E3%83%91%E3%82%B2%E3%83%83%E3%83%86%E3%82%A3%E3%83%BB%E3%83%8F%E3%82%A6%E3%82%B9%20%E3%83%A8%E3%82%B3%E3%82%A4%20KITTE%E5%90%8D%E5%8F%A4%E5%B1%8B%E5%BA%97",
     "official_url": "https://www.yokoi-anspa.jp/",
-    "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%90%8D%E5%8F%A4%E5%B1%8B%E5%8B%BE%E8%8A%A1%E6%84%8F%E9%9D%A2%20%E3%83%A8%E3%82%B3%E3%82%A4",
+    "xhs_url": "https://www.google.com/search?q=site%3Axiaohongshu.com%20%E5%90%8D%E5%8F%A4%E5%B1%8B%E5%8B%BE%E8%8A%A1%E6%84%8F%E9%9D%A2%20%E3%83%A8%E3%82%B3%E3%82%A4",
     "verified_2026": true,
-    "reservation_status": ""
+    "reservation_status": "",
+    "xhs_keyword": "名古屋勾芡意面 ヨコイ"
   },
   {
     "id": "z1-11",
@@ -562,9 +572,10 @@
     "apple_maps_url": "https://maps.apple.com/?ll=35.174364,136.884647&q=%E9%A6%AC%E5%96%B0%E4%B8%80%E4%BB%A3%20%E5%90%8D%E5%8F%A4%E5%B1%8BEAST",
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E9%A6%AC%E5%96%B0%E4%B8%80%E4%BB%A3%20%E5%90%8D%E5%8F%A4%E5%B1%8BEAST",
     "official_url": "https://www.bakuroichidai.jp/",
-    "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E9%A9%AC%E5%96%B0%E4%B8%80%E4%BB%A3%20%E5%90%8D%E5%8F%A4%E5%B1%8B",
+    "xhs_url": "https://www.google.com/search?q=site%3Axiaohongshu.com%20%E9%A9%AC%E5%96%B0%E4%B8%80%E4%BB%A3%20%E5%90%8D%E5%8F%A4%E5%B1%8B",
     "verified_2026": true,
-    "reservation_status": "需预约"
+    "reservation_status": "需预约",
+    "xhs_keyword": "马喰一代 名古屋"
   },
   {
     "id": "z1-12",
@@ -609,9 +620,10 @@
     "apple_maps_url": "https://maps.apple.com/?ll=35.1702,136.8825&q=%E3%81%BE%E3%82%8B%E3%81%AF%E9%A3%9F%E5%A0%82%20JR%E5%90%8D%E5%8F%A4%E5%B1%8B%E9%A7%85%E5%BA%97",
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E3%81%BE%E3%82%8B%E3%81%AF%E9%A3%9F%E5%A0%82%20JR%E5%90%8D%E5%8F%A4%E5%B1%8B%E9%A7%85%E5%BA%97",
     "official_url": "https://www.maruha-net.co.jp/",
-    "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E4%B8%B8%E7%BE%BD%E9%A3%9F%E5%A0%82%20%E5%90%8D%E5%8F%A4%E5%B1%8B",
+    "xhs_url": "https://www.google.com/search?q=site%3Axiaohongshu.com%20%E4%B8%B8%E7%BE%BD%E9%A3%9F%E5%A0%82%20%E5%90%8D%E5%8F%A4%E5%B1%8B",
     "verified_2026": true,
-    "reservation_status": ""
+    "reservation_status": "",
+    "xhs_keyword": "丸羽食堂 名古屋"
   },
   {
     "id": "z1-13",
@@ -661,9 +673,10 @@
     "apple_maps_url": "https://maps.apple.com/?ll=35.172637,136.887432&q=%E4%BC%8D%E5%91%B3%E9%85%89%20%E5%90%8D%E5%8F%A4%E5%B1%8B%E9%A7%85%E5%89%8D%E5%BA%97",
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E4%BC%8D%E5%91%B3%E9%85%89%20%E5%90%8D%E5%8F%A4%E5%B1%8B%E9%A7%85%E5%89%8D%E5%BA%97",
     "official_url": "https://www.taste-net.co.jp/",
-    "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E4%BC%8D%E5%91%B3%E9%85%89%20%E5%90%8D%E5%8F%A4%E5%B1%8B",
+    "xhs_url": "https://www.google.com/search?q=site%3Axiaohongshu.com%20%E4%BC%8D%E5%91%B3%E9%85%89%20%E5%90%8D%E5%8F%A4%E5%B1%8B",
     "verified_2026": true,
-    "reservation_status": "可预约"
+    "reservation_status": "可预约",
+    "xhs_keyword": "伍味酉 名古屋"
   },
   {
     "id": "z1-14",
@@ -708,9 +721,10 @@
     "apple_maps_url": "https://maps.apple.com/?ll=35.1711,136.8822&q=%E5%9C%B0%E9%9B%B7%E4%B9%9F%20%E3%82%B8%E3%82%A7%E3%82%A4%E3%82%A2%E3%83%BC%E3%83%AB%E5%90%8D%E5%8F%A4%E5%B1%8B%E3%82%BF%E3%82%AB%E3%82%B7%E3%83%9E%E3%83%A4%E5%BA%97",
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E5%9C%B0%E9%9B%B7%E4%B9%9F%20%E3%82%BF%E3%82%AB%E3%82%B7%E3%83%9E%E3%83%A4",
     "official_url": "https://www.jiraiya.co.jp/",
-    "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%9C%B0%E9%9B%B7%E4%B9%9F%20%E5%A4%A9%E5%A6%87%E7%BD%97%E9%A5%AD%E5%9B%A2",
+    "xhs_url": "https://www.google.com/search?q=site%3Axiaohongshu.com%20%E5%90%8D%E5%8F%A4%E5%B1%8B%20%E5%9C%B0%E9%9B%B7%E4%B9%9F%20%E5%A4%A9%E5%A6%87%E7%BD%97%E9%A5%AD%E5%9B%A2",
     "verified_2026": true,
-    "reservation_status": ""
+    "reservation_status": "",
+    "xhs_keyword": "名古屋 地雷也 天妇罗饭团"
   },
   {
     "id": "z1-15",
@@ -755,9 +769,10 @@
     "apple_maps_url": "https://maps.apple.com/?ll=35.1722,136.8826&q=%E3%83%9F%E3%83%BC%E3%83%88%E7%9F%A2%E6%BE%A4%20%E5%90%8D%E5%8F%A4%E5%B1%8B",
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E3%83%9F%E3%83%BC%E3%83%88%E7%9F%A2%E6%BE%A4%20%E5%90%8D%E5%8F%A4%E5%B1%8B",
     "official_url": "https://www.towers.jp/",
-    "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E7%9F%A2%E6%B3%BD%E8%82%89%E9%93%BA%20%E5%90%8D%E5%8F%A4%E5%B1%8B",
+    "xhs_url": "https://www.google.com/search?q=site%3Axiaohongshu.com%20%E7%9F%A2%E6%B3%BD%E8%82%89%E9%93%BA%20%E5%90%8D%E5%8F%A4%E5%B1%8B",
     "verified_2026": true,
-    "reservation_status": ""
+    "reservation_status": "",
+    "xhs_keyword": "矢泽肉铺 名古屋"
   },
   {
     "id": "z2-01",
@@ -807,9 +822,10 @@
     "apple_maps_url": "https://maps.apple.com/?ll=35.1705,136.8808&q=%E5%91%B3%E4%BB%99%20JR%E5%90%8D%E5%8F%A4%E5%B1%8B%E9%A7%85%E5%BA%97",
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E5%91%B3%E4%BB%99%20JR%E5%90%8D%E5%8F%A4%E5%B1%8B%E9%A7%85%E5%BA%97",
     "official_url": "https://www.misen.ne.jp/",
-    "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%91%B3%E4%BB%99%20%E5%90%8D%E5%8F%A4%E5%B1%8B%E7%AB%99",
+    "xhs_url": "https://www.google.com/search?q=site%3Axiaohongshu.com%20%E5%91%B3%E4%BB%99%20%E5%90%8D%E5%8F%A4%E5%B1%8B%E7%AB%99",
     "verified_2026": true,
-    "reservation_status": ""
+    "reservation_status": "",
+    "xhs_keyword": "味仙 名古屋站"
   },
   {
     "id": "z2-02",
@@ -859,9 +875,10 @@
     "apple_maps_url": "https://maps.apple.com/?ll=35.174308,136.879450&q=%E9%BA%BA%E5%AE%B6%20%E7%8D%85%E5%AD%90%E4%B8%B8",
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E9%BA%BA%E5%AE%B6%20%E7%8D%85%E5%AD%90%E4%B8%B8",
     "official_url": "https://menya-hanzo.com/",
-    "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E9%9D%A2%E5%AE%B6%E7%8B%AE%E5%AD%90%E4%B8%B8%20%E5%90%8D%E5%8F%A4%E5%B1%8B",
+    "xhs_url": "https://www.google.com/search?q=site%3Axiaohongshu.com%20%E9%9D%A2%E5%AE%B6%E7%8B%AE%E5%AD%90%E4%B8%B8%20%E5%90%8D%E5%8F%A4%E5%B1%8B",
     "verified_2026": true,
-    "reservation_status": ""
+    "reservation_status": "",
+    "xhs_keyword": "面家狮子丸 名古屋"
   },
   {
     "id": "z2-03",
@@ -906,9 +923,10 @@
     "apple_maps_url": "https://maps.apple.com/?ll=35.170655,136.881142&q=%E3%81%B2%E3%81%A4%E3%81%BE%E3%81%B6%E3%81%97%20%E7%A8%B2%E7%94%9F%20%E3%82%A8%E3%82%B9%E3%82%AB%E5%BA%97",
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E3%81%B2%E3%81%A4%E3%81%BE%E3%81%B6%E3%81%97%20%E7%A8%B2%E7%94%9F%20%E3%82%A8%E3%82%B9%E3%82%AB%E5%BA%97",
     "official_url": "https://inou-hitsumabushi.com/",
-    "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E7%A8%BB%E7%94%9F%E9%B3%97%E9%B1%BC%E9%A5%AD%20%E5%90%8D%E5%8F%A4%E5%B1%8B",
+    "xhs_url": "https://www.google.com/search?q=site%3Axiaohongshu.com%20%E7%A8%BB%E7%94%9F%E9%B3%97%E9%B1%BC%E9%A5%AD%20%E5%90%8D%E5%8F%A4%E5%B1%8B",
     "verified_2026": true,
-    "reservation_status": ""
+    "reservation_status": "",
+    "xhs_keyword": "稻生鳗鱼饭 名古屋"
   },
   {
     "id": "z2-04",
@@ -953,9 +971,10 @@
     "apple_maps_url": "https://maps.apple.com/?ll=35.170655,136.881142&q=%E3%81%B2%E3%81%A4%E3%81%BE%E3%81%B6%E3%81%97%E5%90%8D%E5%8F%A4%E5%B1%8B%20%E5%82%99%E9%95%B7%20%E3%82%A8%E3%82%B9%E3%82%AB%E5%BA%97",
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E3%81%B2%E3%81%A4%E3%81%BE%E3%81%B6%E3%81%97%E5%90%8D%E5%8F%A4%E5%B1%8B%20%E5%82%99%E9%95%B7%20%E3%82%A8%E3%82%B9%E3%82%AB%E5%BA%97",
     "official_url": "https://hitsumabushi.co.jp/",
-    "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%A4%87%E9%95%BF%E9%B3%97%E9%B1%BC%E9%A5%AD%20ESCA",
+    "xhs_url": "https://www.google.com/search?q=site%3Axiaohongshu.com%20%E5%90%8D%E5%8F%A4%E5%B1%8B%20%E5%A4%87%E9%95%BF%E9%B3%97%E9%B1%BC%E9%A5%AD%20ESCA",
     "verified_2026": true,
-    "reservation_status": "可预约"
+    "reservation_status": "可预约",
+    "xhs_keyword": "名古屋 备长鳗鱼饭 ESCA"
   },
   {
     "id": "z2-05",
@@ -1000,9 +1019,10 @@
     "apple_maps_url": "https://maps.apple.com/?ll=35.170655,136.881142&q=%E7%9F%A2%E5%A0%B4%E3%81%A8%E3%82%93%20%E5%90%8D%E5%8F%A4%E5%B1%8B%E9%A7%85%E3%82%A8%E3%82%B9%E3%82%AB%E5%BA%97",
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E7%9F%A2%E5%A0%B4%E3%81%A8%E3%82%93%20%E5%90%8D%E5%8F%A4%E5%B1%8B%E9%A7%85%E3%82%A8%E3%82%B9%E3%82%AB%E5%BA%97",
     "official_url": "https://www.yabaton.com/",
-    "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E7%9F%A2%E5%A0%BA%E7%8C%AA%E6%8E%92%20ESCA",
+    "xhs_url": "https://www.google.com/search?q=site%3Axiaohongshu.com%20%E5%90%8D%E5%8F%A4%E5%B1%8B%20%E7%9F%A2%E5%A0%BA%E7%8C%AA%E6%8E%92%20ESCA",
     "verified_2026": true,
-    "reservation_status": ""
+    "reservation_status": "",
+    "xhs_keyword": "名古屋 矢堺猪排 ESCA"
   },
   {
     "id": "z2-06",
@@ -1047,9 +1067,10 @@
     "apple_maps_url": "https://maps.apple.com/?ll=35.170655,136.881142&q=%E3%81%8D%E3%81%97%E3%82%81%E3%82%93%20%E3%82%88%E3%81%97%E3%81%A0%20%E3%82%A8%E3%82%B9%E3%82%AB%E5%BA%97",
     "tabelog_url": "https://tabelog.com/aichi/A2301/A230101/23000916/",
     "official_url": "https://www.yoshidamen.co.jp/",
-    "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%90%89%E7%94%B0%E6%A3%8A%E5%AD%90%E9%9D%A2%20%E5%90%8D%E5%8F%A4%E5%B1%8B",
+    "xhs_url": "https://www.google.com/search?q=site%3Axiaohongshu.com%20%E5%90%89%E7%94%B0%E6%A3%8A%E5%AD%90%E9%9D%A2%20%E5%90%8D%E5%8F%A4%E5%B1%8B",
     "verified_2026": true,
-    "reservation_status": ""
+    "reservation_status": "",
+    "xhs_keyword": "吉田棊子面 名古屋"
   },
   {
     "id": "z2-07",
@@ -1094,9 +1115,10 @@
     "apple_maps_url": "https://maps.apple.com/?ll=35.170655,136.881142&q=%E5%B1%B1%E6%9C%AC%E5%B1%8B%E6%9C%AC%E5%BA%97%20%E3%82%A8%E3%82%B9%E3%82%AB%E5%BA%97",
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E5%B1%B1%E6%9C%AC%E5%B1%8B%E6%9C%AC%E5%BA%97%20%E3%82%A8%E3%82%B9%E3%82%AB%E5%BA%97",
     "official_url": "https://yamamotoyahonten.co.jp/",
-    "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%B1%B1%E6%9C%AC%E5%B1%8B%E6%9C%AC%E5%BA%97%20ESCA",
+    "xhs_url": "https://www.google.com/search?q=site%3Axiaohongshu.com%20%E5%90%8D%E5%8F%A4%E5%B1%8B%20%E5%B1%B1%E6%9C%AC%E5%B1%8B%E6%9C%AC%E5%BA%97%20ESCA",
     "verified_2026": true,
-    "reservation_status": ""
+    "reservation_status": "",
+    "xhs_keyword": "名古屋 山本屋本店 ESCA"
   },
   {
     "id": "z2-08",
@@ -1141,9 +1163,10 @@
     "apple_maps_url": "https://maps.apple.com/?ll=35.170655,136.881142&q=%E5%96%AB%E8%8C%B6%E3%83%AA%E3%83%83%E3%83%81%20%E3%82%A8%E3%82%B9%E3%82%AB%E5%BA%97",
     "tabelog_url": "https://tabelog.com/aichi/A2301/A230101/23009643/",
     "official_url": "https://www.esca-sc.com/",
-    "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%90%83%E8%8C%B6rich%20%E5%90%8D%E5%8F%A4%E5%B1%8B",
+    "xhs_url": "https://www.google.com/search?q=site%3Axiaohongshu.com%20%E5%90%83%E8%8C%B6rich%20%E5%90%8D%E5%8F%A4%E5%B1%8B",
     "verified_2026": true,
-    "reservation_status": ""
+    "reservation_status": "",
+    "xhs_keyword": "吃茶rich 名古屋"
   },
   {
     "id": "z2-09",
@@ -1193,9 +1216,10 @@
     "apple_maps_url": "https://maps.apple.com/?ll=35.170256,136.873898&q=%E5%96%AB%E8%8C%B6%E3%83%A2%E3%83%BC%E3%83%8B%E3%83%B3%E3%82%B0",
     "tabelog_url": "https://tabelog.com/aichi/A2301/A230101/23070570/",
     "official_url": "https://kissamorning.com/",
-    "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%90%83%E8%8C%B6morning%20%E5%90%8D%E5%8F%A4%E5%B1%8B",
+    "xhs_url": "https://www.google.com/search?q=site%3Axiaohongshu.com%20%E5%90%83%E8%8C%B6morning%20%E5%90%8D%E5%8F%A4%E5%B1%8B",
     "verified_2026": true,
-    "reservation_status": ""
+    "reservation_status": "",
+    "xhs_keyword": "吃茶morning 名古屋"
   },
   {
     "id": "z2-10",
@@ -1245,9 +1269,10 @@
     "apple_maps_url": "https://maps.apple.com/?ll=35.169916,136.888019&q=%E5%A4%A9%E3%81%B7%E3%82%89%E3%81%A8%E3%83%AF%E3%82%A4%E3%83%B3%20%E5%B0%8F%E5%B3%B6%20%E6%9F%B3%E6%A9%8B%E6%9C%AC%E5%BA%97",
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E5%A4%A9%E3%81%B7%E3%82%89%E3%81%A8%E3%83%AF%E3%82%A4%E3%83%B3%20%E5%B0%8F%E5%B3%B6%20%E6%9F%B3%E6%A9%8B%E6%9C%AC%E5%BA%97",
     "official_url": "https://tenpura-kojima.jp/",
-    "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%A4%A9%E5%A6%87%E7%BD%97%E4%B8%8E%E7%BA%A2%E9%85%92%E5%B0%8F%E5%B2%9B%20%E5%90%8D%E5%8F%A4%E5%B1%8B",
+    "xhs_url": "https://www.google.com/search?q=site%3Axiaohongshu.com%20%E5%A4%A9%E5%A6%87%E7%BD%97%E4%B8%8E%E7%BA%A2%E9%85%92%E5%B0%8F%E5%B2%9B%20%E5%90%8D%E5%8F%A4%E5%B1%8B",
     "verified_2026": true,
-    "reservation_status": ""
+    "reservation_status": "",
+    "xhs_keyword": "天妇罗与红酒小岛 名古屋"
   },
   {
     "id": "z2-11",
@@ -1292,9 +1317,10 @@
     "apple_maps_url": "https://maps.apple.com/?ll=35.169916,136.888019&q=%E3%81%BE%E3%81%90%E3%82%8D%E3%82%84%E3%81%95%E3%82%93%E6%9F%B3%E6%A9%8B",
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E3%81%BE%E3%81%90%E3%82%8D%E3%82%84%E3%81%95%E3%82%93%E6%9F%B3%E6%A9%8B",
     "official_url": "https://marunaka-center.co.jp/",
-    "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E6%9F%B3%E6%A1%A5%E4%B8%AD%E5%A4%AE%E5%B8%82%E5%9C%BA%20%E6%B5%B7%E9%B2%9C%E4%B8%BC",
+    "xhs_url": "https://www.google.com/search?q=site%3Axiaohongshu.com%20%E5%90%8D%E5%8F%A4%E5%B1%8B%20%E6%9F%B3%E6%A1%A5%E4%B8%AD%E5%A4%AE%E5%B8%82%E5%9C%BA%20%E6%B5%B7%E9%B2%9C%E4%B8%BC",
     "verified_2026": true,
-    "reservation_status": ""
+    "reservation_status": "",
+    "xhs_keyword": "名古屋 柳桥中央市场 海鲜丼"
   },
   {
     "id": "z2-12",
@@ -1339,9 +1365,10 @@
     "apple_maps_url": "https://maps.apple.com/?ll=35.180024,136.879972&q=%E5%90%9B%E3%81%AE%E3%83%8F%E3%83%B3%E3%83%90%E3%83%BC%E3%82%B0%E3%82%92%E9%A3%9F%E3%81%B9%E3%81%9F%E3%81%84",
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E5%90%9B%E3%81%AE%E3%83%8F%E3%83%B3%E3%83%90%E3%83%BC%E3%82%B0%E3%82%92%E9%A3%9F%E3%81%B9%E3%81%9F%E3%81%84%20%E3%83%8E%E3%83%AA%E3%82%BF%E3%82%B1",
     "official_url": "https://nagoya-noritake-aeonmall.com/",
-    "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E6%83%B3%E5%90%83%E4%BD%A0%E7%9A%84%E6%B1%89%E5%A0%A1%E6%8E%92%20%E5%90%8D%E5%8F%A4%E5%B1%8B",
+    "xhs_url": "https://www.google.com/search?q=site%3Axiaohongshu.com%20%E6%83%B3%E5%90%83%E4%BD%A0%E7%9A%84%E6%B1%89%E5%A0%A1%E6%8E%92%20%E5%90%8D%E5%8F%A4%E5%B1%8B",
     "verified_2026": true,
-    "reservation_status": ""
+    "reservation_status": "",
+    "xhs_keyword": "想吃你的汉堡排 名古屋"
   },
   {
     "id": "z2-13",
@@ -1386,9 +1413,10 @@
     "apple_maps_url": "https://maps.apple.com/?ll=35.170655,136.881142&q=%E9%B3%A5%E9%96%8B%E7%B7%8F%E6%9C%AC%E5%AE%B6%20%E5%90%8D%E9%A7%85%E3%82%A8%E3%82%B9%E3%82%AB%E5%BA%97",
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E9%B3%A5%E9%96%8B%E7%B7%8F%E6%9C%AC%E5%AE%B6%20%E5%90%8D%E9%A7%85%E3%82%A8%E3%82%B9%E3%82%AB%E5%BA%97",
     "official_url": "https://www.tori-kai.com/",
-    "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E9%B8%9F%E5%BC%80%E6%80%BB%E6%9C%AC%E5%AE%B6%20%E5%90%8D%E5%8F%A4%E5%B1%8B",
+    "xhs_url": "https://www.google.com/search?q=site%3Axiaohongshu.com%20%E9%B8%9F%E5%BC%80%E6%80%BB%E6%9C%AC%E5%AE%B6%20%E5%90%8D%E5%8F%A4%E5%B1%8B",
     "verified_2026": true,
-    "reservation_status": ""
+    "reservation_status": "",
+    "xhs_keyword": "鸟开总本家 名古屋"
   },
   {
     "id": "z2-14",
@@ -1433,9 +1461,10 @@
     "apple_maps_url": "https://maps.apple.com/?ll=35.170655,136.881142&q=%E9%A2%A8%E6%9D%A5%E5%9D%8A%20%E3%82%A8%E3%82%B9%E3%82%AB%E5%BA%97",
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=%E9%A2%A8%E6%9D%A5%E5%9D%8A%20%E3%82%A8%E3%82%B9%E3%82%AB%E5%BA%97",
     "official_url": "https://www.furaibou.com/",
-    "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E9%A3%8E%E6%9D%A5%E5%9D%8A%20%E5%90%8D%E5%8F%A4%E5%B1%8B",
+    "xhs_url": "https://www.google.com/search?q=site%3Axiaohongshu.com%20%E9%A3%8E%E6%9D%A5%E5%9D%8A%20%E5%90%8D%E5%8F%A4%E5%B1%8B",
     "verified_2026": true,
-    "reservation_status": ""
+    "reservation_status": "",
+    "xhs_keyword": "风来坊 名古屋"
   },
   {
     "id": "z2-15",
@@ -1480,8 +1509,9 @@
     "apple_maps_url": "https://maps.apple.com/?ll=35.179544,136.881258&q=Cafe%20grand%20vert%20%E3%83%8E%E3%83%AA%E3%82%BF%E3%82%B1%E3%81%AE%E6%A3%AE",
     "tabelog_url": "https://tabelog.com/aichi/rstLst/?sw=Cafe%20grand%20vert%20%E3%83%8E%E3%83%AA%E3%82%BF%E3%82%B1%E3%81%AE%E6%A3%AE",
     "official_url": "https://www.noritake.co.jp/mori/",
-    "xhs_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%88%99%E6%AD%A6%E4%B9%8B%E6%A3%AE%20%E4%B8%8B%E5%8D%88%E8%8C%B6",
+    "xhs_url": "https://www.google.com/search?q=site%3Axiaohongshu.com%20%E5%90%8D%E5%8F%A4%E5%B1%8B%20%E5%88%99%E6%AD%A6%E4%B9%8B%E6%A3%AE%20%E4%B8%8B%E5%8D%88%E8%8C%B6",
     "verified_2026": true,
-    "reservation_status": ""
+    "reservation_status": "",
+    "xhs_keyword": "名古屋 则武之森 下午茶"
   }
 ]
